@@ -1,0 +1,33 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container_home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.description {
+    font-size: 2rem;
+}
+
+.img_profile {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    margin: 2rem 0;
+}
+
+.logo {
+    width: 4rem;
+    margin: 0 .5rem;
+}
