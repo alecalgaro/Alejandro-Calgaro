@@ -1,0 +1,43 @@
+.container_education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.subtitle {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.content {
+    margin: 2.5rem 2rem 0 2rem;
+    width: 80%;
+}
+
+.year {
+
+}
+
+.title {
+
+}
+
+.description {
+
+}
+
+/* media queries mobile first */
+
+@media (min-width: 768px) { 
+    .content {
+        width: 60%;
+    }
+} 
+
+@media (min-width: 992px) {
+    .content {
+        width: 40%;
+    }
+}

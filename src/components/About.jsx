@@ -4,7 +4,7 @@ import styles from '../styles/About.module.css'
 
 export const About = () => {
     return (
-        <div className={styles.container_about}>
+        <section className={styles.container_about}>
             <div className={styles.content}>
                 <h2 className={styles.subtitle}>SOBRE MI</h2>
                 <p className={styles.paragraph}> Tengo 25 años, soy de la ciudad de Chajari (Entre Ríos).
@@ -12,6 +12,6 @@ export const About = () => {
                     Además de eso, he realizado cursos online sobre distintas tecnologías relacionadas al desarrollo web y desarrollo móvil.
                 </p>
             </div>
-        </div>
+        </section>
     )
 }
