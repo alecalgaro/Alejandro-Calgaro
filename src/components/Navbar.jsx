@@ -18,7 +18,7 @@ export const Navbar = () => {
                         </div>
                         <div className="offcanvas-body d-flex align-items-center">
                             <ul className="navbar-nav align-items-center flex-grow-1 pe-3">
-                                <img src="../assets/img-perfil.jpg" alt="foto de perfil" className={styles.img_profile}/>
+                                <img src="../img/img-perfil.webp" alt="foto de perfil" className={styles.img_profile}/>
                                 <li className="nav-item">
                                     <a className="nav-link active" aria-current="page" href="#">Inicio</a>
                                 </li>

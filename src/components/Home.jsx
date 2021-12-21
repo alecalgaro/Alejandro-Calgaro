@@ -7,7 +7,7 @@ export const Home = () => {
         <section className={styles.container_home} id='home'>
             <h1 className={styles.title}>Alejandro Calgaro</h1>
             <p className={styles.description}>Desarrollo web y desarrollo móvil</p>
-            <img src="../assets/img-perfil.jpg" alt="foto de perfil" className={styles.img_profile}/>
+            <img src="../img/img-perfil.webp" alt="foto de perfil" className={styles.img_profile}/>
             
             <Social_medias />
         </section>
