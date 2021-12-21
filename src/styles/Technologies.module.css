@@ -1,39 +1,31 @@
-.container_education {
+.container_technologies {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 80%;
     margin-bottom: 10rem;
+    padding: 5rem 0;
+    background-color: var(--fondo_gris);
 }
 
 .subtitle {
     font-size: 2rem;
     font-weight: 900;
-    margin-bottom: 2rem;
+    text-align: center;
     text-transform: uppercase;
+    margin-bottom: 2rem;
 }
 
 .content {
     margin: .5rem 2rem;
-    width: 80%;
+    width: 90%;
     text-align: center;
 }
 
-.year {
-    font-size: 1.5rem;
-    color: var(--azul);
-    font-weight: 700;
-}
-
-.title {
-    font-size: 1.8rem;
-    font-style: italic;
-}
-
-.description {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+.icon {
+    width: 6rem;
+    margin: 2rem 4rem;
 }
 
 /* media queries mobile first */

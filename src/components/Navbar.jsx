@@ -1,12 +1,13 @@
 import React from 'react'
 
 import styles from '../styles/Navbar.module.css'
+import { Social_medias } from './Social_medias'
 
 export const Navbar = () => {
     return (
             <nav className="navbar navbar-light bg-light fixed-top">
                 <div className="container-fluid">
-                    <a className={styles.ac} href="#">AC</a>
+                    <a className={styles.ac} href="#home">AC</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -22,25 +23,22 @@ export const Navbar = () => {
                                     <a className="nav-link active" aria-current="page" href="#">Inicio</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Sobre mi</a>
+                                    <a className="nav-link" href="#about">Sobre mi</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Educación</a>
+                                    <a className="nav-link" href="#education">Educación</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Experiencia</a>
+                                    <a className="nav-link" href="#technologies">Tecnologías</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Proyectos</a>
+                                    <a className="nav-link" href="#projects">Proyectos</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">CV</a>
+                                    <a className="nav-link" href="#cv">CV</a>
                                 </li>
                                 <div className="mt-5">
-                                    <img src="../assets/icons/icon-instagram.png" alt="logo-instagram" className={styles.logo}/>
-                                    <img src="../assets/icons/icon-facebook.png" alt="logo-facebook" className={styles.logo}/>
-                                    <img src="../assets/icons/icon-linkedin.png" alt="logo-linkedin" className={styles.logo}/>
-                                    <img src="../assets/icons/icon-github.png" alt="logo-github" className={styles.logo}/>
+                                    <Social_medias />
                                 </div>
                             </ul>  
                         </div>

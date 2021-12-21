@@ -10,6 +10,9 @@ li, h5 {
 .ac {
     font-size: 2rem;
     margin-left: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
 }
 
 button {
@@ -27,7 +30,7 @@ button {
     margin-top: 5rem;
 }
 
-.logo {
+.icon {
     width: 4rem;
     margin: 0 .5rem;
 }

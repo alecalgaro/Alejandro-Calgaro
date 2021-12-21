@@ -4,6 +4,8 @@ import { Navbar } from './components/Navbar'
 import { Home } from './components/Home'
 import { About } from './components/About'
 import { Education } from './components/Education'
+import { Technologies } from './components/Technologies'
+import { Projects } from './components/Projects'
 import { CV } from './components/CV'
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
       <main> 
         <About />
         <Education />
+        <Technologies />
+        <Projects />
       </main>
       <footer>
         <CV />
