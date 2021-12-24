@@ -8,11 +8,9 @@ li, h5 {
 }
 
 .ac {
-    font-size: 2rem;
+    width: 4.5rem;
+    height: 4.5rem;
     margin-left: 2rem;
-    font-weight: 700;
-    text-decoration: none;
-    color: var(--azul);
 }
 
 button {
@@ -24,6 +22,7 @@ button {
     height: 10rem;
     border-radius: 50%;
     margin-bottom: 2rem;
+    object-fit: cover;
 }
 
 .social_medias {

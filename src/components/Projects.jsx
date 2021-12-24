@@ -14,7 +14,7 @@ export const Projects = () => {
                     description="Página web personal para contar sobre mi, mis estudios, experiencia, conocimientos y proyectos realizados. Fue realizada utilizando React, CSS y Bootstrap."
                     github="https://github.com/alecalgaro/Alejandro-Calgaro"
                     web="https://alejandrocalgaro.netlify.app/"
-                    url_img="../img/enbuscadelasantidad-web.webp"
+                    url_img="../img/pagina-personal.webp"
                 />
 
                 <Project 

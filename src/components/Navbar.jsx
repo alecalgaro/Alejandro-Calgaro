@@ -7,7 +7,7 @@ export const Navbar = () => {
     return (
             <nav className="navbar navbar-light bg-light fixed-top">
                 <div className="container-fluid">
-                    <a className={styles.ac} href="#home">AC</a>
+                    <a  href="#home"> <img src="../img/logo-ca.png" alt="logo-ca" className={styles.ac}/> </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -18,9 +18,9 @@ export const Navbar = () => {
                         </div>
                         <div className="offcanvas-body d-flex align-items-center">
                             <ul className="navbar-nav align-items-center flex-grow-1 pe-3">
-                                <img src="../img/img-perfil.webp" alt="foto de perfil" className={styles.img_profile}/>
-                                <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#">Inicio</a>
+                                <img src="../img/img-perfil.webp" alt="foto de perfil" className={styles.img_profile} width="100" height="100"/>
+                                <li className="nav-item" data-bs-dismiss="offcanvas">
+                                    <a className="nav-link active" aria-current="page" href="#home">Inicio</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#about">Sobre mi</a>
