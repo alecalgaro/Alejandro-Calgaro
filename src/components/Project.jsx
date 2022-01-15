@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../styles/Project.module.css'
 
-export const Project = ({title, description, url_img, github, web}) => {
+export const Project = ({title, description, url_img, github, web, vertical}) => {
     return (
         <>
             <div className={styles.project}>
@@ -19,7 +19,11 @@ export const Project = ({title, description, url_img, github, web}) => {
                         }
                     </div>
                 </div>
-                <img src={url_img} alt="imagen vsm" className={styles.img_project}/>
+                { vertical 
+                    ? <img src={url_img} alt="imagen vsm" className={styles.img_vertical_project}/>
+                    : <img src={url_img} alt="imagen vsm" className={styles.img_project}/>
+                }
+                
             </div>
             <hr />
         </>

@@ -44,6 +44,15 @@ export const Projects = () => {
                     description="ClimApp es una aplicación del clima creada en React Native para el proyecto grupal del curso de especialización en desarrollo mobile realizado en conjunto por IBM y Codo a Codo."
                     github="https://github.com/alecalgaro/App-Clima-IBM"
                     url_img="../img/app-clima.webp"
+                    vertical="true"
+                />
+
+                <Project 
+                    title="Tus links"
+                    description="Aplicación creada como práctica de React y Firebase. La misma permite ingresar un titulo, descripción, categoría y link para guardarlos en una base de datos y poder acceder a ellos de forma remota."
+                    github="https://github.com/alecalgaro/tus-links"
+                    url_img="../img/tus-links.webp"
+                    vertical="true"
                 />
 
             </div>

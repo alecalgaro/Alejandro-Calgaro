@@ -33,6 +33,11 @@ p {
     margin: 2rem 4rem;
 }
 
+.img_vertical_project {
+    width: 80%;
+    margin: 2rem 4rem;
+}
+
 .icon {
     width: 3rem;
     margin: 0 1rem;
@@ -48,6 +53,10 @@ a {
     .img_project {
         width: 80%;
     }
+
+    .img_vertical_project {
+        width: 50%;
+    }
 } 
 
 @media (min-width: 992px) {
@@ -62,5 +71,9 @@ a {
 
     .project {
         flex-direction: row;
+    }
+
+    .img_vertical_project {
+        width: 30%;
     }
 }
