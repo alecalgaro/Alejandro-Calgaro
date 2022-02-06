@@ -27,7 +27,7 @@ const Burguer = styled.div`
 .nav-icon-5{
   width: 30px;
   height: 30px;
-  margin: 10px 10px;
+  margin: 10px 20px;
   position: relative;
   cursor: pointer;
   display: inline-block;
