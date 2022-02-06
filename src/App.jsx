@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './styles/global.module.css'   // estilos globales
-import { Navbar } from './components/Navbar'
+import { Navbar2 } from './components/Navbar2'
 import { Home } from './components/Home'
 import { About } from './components/About'
 import { Education } from './components/Education'
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className={styles.container_app}>
       <header>
-        <Navbar />
+        <Navbar2 />
         <Home />
       </header>
       <main> 
