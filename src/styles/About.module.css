@@ -28,6 +28,7 @@
 .paragraph {
     font-size: 1.4rem;
     margin-top: 2rem;
+    line-height: 2rem;
 }
 
 /* media queries mobile first */
