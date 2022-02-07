@@ -104,7 +104,7 @@ const BgDiv = styled.div`
   
   &.active{
     border-radius: 0 0 50% 0;
-    top: 54px;
+    top: 51px;
     left: 0;
   }
 `
