@@ -1,0 +1,21 @@
+/* Estilos globales (usados en App.jsx) */
+:root{
+    --azul: #0976B2;
+    --fondo_gris: #f3f4f5;
+}
+
+* {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* A todas las secciones que tengan id (las que se usan en el menu), les añado un scroll margin top para tener ese tope y que el menu no la tape el menu */
+section[id] {
+    scroll-margin-top: 100px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;    
+}

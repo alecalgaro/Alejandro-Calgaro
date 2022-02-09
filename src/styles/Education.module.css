@@ -1,0 +1,53 @@
+.container_education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    margin-bottom: 10rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.content {
+    margin: .5rem 2rem;
+    width: 80%;
+    text-align: center;
+}
+
+.year {
+    font-size: 1.4rem;
+    color: var(--azul);
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-style: italic;
+    margin: 1rem 0;
+}
+
+.description {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+/* media queries mobile first */
+
+@media (min-width: 768px) { 
+    .content {
+        width: 60%;
+    }
+} 
+
+@media (min-width: 992px) {
+    .content {
+        width: 40%;
+    }
+}
