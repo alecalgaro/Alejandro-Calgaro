@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import BurguerButton from './BurguerButton'
 import { Social_medias } from './Social_medias'
+import imgLogo from '../img/logo-ca.png'
 
 export const Navbar = () => {
 
@@ -13,7 +14,7 @@ export const Navbar = () => {
   return (
     <>
       <NavContainer>
-        <a  href="#home"> <Logo src="../img/logo-ca.png" alt="logo-ca"/> </a>
+        <a  href="#home"> <Logo src={imgLogo} alt="logo-ca"/> </a>
         <div className={`links ${clicked ? 'active' : ''}`}>
           <a onClick={handleClick} href="#home">Inicio</a>
           <a onClick={handleClick} href="#about">Sobre mí</a>

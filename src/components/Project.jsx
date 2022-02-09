@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from '../styles/Project.module.css'
+import iconGithub from '../img/icons/icon-github.webp'
+import iconWeb from '../img/icons/icon-web.webp'
 
 export const Project = ({title, description, url_img, github, web, vertical}) => {
     return (
@@ -10,18 +12,18 @@ export const Project = ({title, description, url_img, github, web, vertical}) =>
                     <p>{description}</p>
                     <div className={styles.links}>
                         { github 
-                            ? <a href={github} target="_blank"> <img src="../img/icons/icon-github.webp" alt="icon-github" className={styles.icon}/> </a> 
+                            ? <a href={github} target="_blank"> <img src={iconGithub} alt="icon-github" className={styles.icon}/> </a> 
                             : null
                         }
                         { web 
-                            ? <a href={web} target="_blank"> <img src="../img/icons/icon-web.webp" alt="icon-web" className={styles.icon}/> </a>
+                            ? <a href={web} target="_blank"> <img src={iconWeb} alt="icon-web" className={styles.icon}/> </a>
                             : null
                         }
                     </div>
                 </div>
                 { vertical 
-                    ? <img src={url_img} alt="imagen vsm" className={styles.img_vertical_project}/>
-                    : <img src={url_img} alt="imagen vsm" className={styles.img_project}/>
+                    ? <img src={url_img} alt="imagen proyecto" className={styles.img_vertical_project}/>
+                    : <img src={url_img} alt="imagen proyecto" className={styles.img_project}/>
                 }
                 
             </div>
