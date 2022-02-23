@@ -47,19 +47,6 @@ const NavContainer = styled.nav`
   width: 100%;
   z-index: 10;
 
-  a{
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-    letter-spacing: 2px;
-    margin-right: 1rem;
-    transition: letter-spacing .3s;
-    
-    &:hover{
-      letter-spacing: 4px;
-    }
-  }
-
   .links{
     position: absolute;
     top: -700px;
@@ -78,11 +65,22 @@ const NavContainer = styled.nav`
     left: 0;
     right: 0;
     text-align: center;
+    
     a{
       display: block;
-      font-size: 2.5rem;
-      margin-bottom: 1.5rem;
+      font-size: 2.8rem;
+      margin-bottom: 1.8rem;
       color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      transition: letter-spacing .3s;
+      
+      &:hover{
+        letter-spacing: 4px;
+        opacity: 0.8;
+      }
     }
   }
 `
@@ -104,7 +102,7 @@ const BgDiv = styled.div`
   z-index: 1;
   
   &.active{
-    border-radius: 0 0 50% 0;
+    /* border-radius: 0 0 50% 0; */
     top: 51px;
     left: 0;
   }

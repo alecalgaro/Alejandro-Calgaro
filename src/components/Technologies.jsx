@@ -1,4 +1,5 @@
 import React from 'react'
+import SectionTitle from './SectionTitle'
 import styles from '../styles/Technologies.module.css'
 import iconHTML from '../img/icons/icon-html.webp'
 import iconCSS from '../img/icons/icon-css.webp'
@@ -16,8 +17,7 @@ import iconFigma from '../img/icons/icon-figma.webp'
 export const Technologies = () => {
     return (
         <section className={styles.container_technologies} id='technologies'>
-            <h2 className={styles.subtitle}>Tecnologías<br/>utilizadas</h2>
-
+            <SectionTitle title="Tecnologías"/>
             <div className={styles.content}>
                 <img src={iconHTML} alt="icon-html" className={styles.icon}/>
                 <img src={iconCSS} alt="icon-css" className={styles.icon}/>

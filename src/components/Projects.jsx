@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import SectionTitle from "./SectionTitle";
 import styles from "../styles/Projects.module.css";
 import { Project } from "./Project";
 import imgPaginaPersonal from '../img/pagina-personal.webp'
@@ -13,7 +14,7 @@ export const Projects = () => {
 
   return (
     <section className={styles.container_projects} id="projects">
-      <h2 className={styles.subtitle}>Proyectos</h2>
+      <SectionTitle title="Proyectos"/>
 
       <div className={styles.category}>
         <button className={styles.btn_category} onClick={() => setCategory("all")}>Todos</button>

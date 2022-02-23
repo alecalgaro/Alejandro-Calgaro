@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from '../styles/Education.module.css'
-
+import SectionTitle from './SectionTitle'
 export const Education = () => {
     return (
         <section className={styles.container_education} id='education'>
-            <h2 className={styles.subtitle}>Educación</h2>
-
+            {/* <h2 className={styles.subtitle}>Educación</h2> */}
+            <SectionTitle title="Educación"/>
             <div className={styles.content}>
                 <hr />
                 <p className={styles.year}>Actualmente</p>
