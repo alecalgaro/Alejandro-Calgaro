@@ -20,7 +20,7 @@ export const Projects = () => {
         <button className={styles.btn_category} onClick={() => setCategory("all")}>Todos</button>
         <button className={styles.btn_category} onClick={() => setCategory("web")}>Web</button>
         <button className={styles.btn_category} onClick={() => setCategory("movil")}>Móvil</button>
-        <button className={styles.btn_category} onClick={() => setCategory("juegos")}>Juegos</button>
+        <button className={styles.btn_category} onClick={() => setCategory("games")}>Juegos</button>
         <button className={styles.btn_category} onClick={() => setCategory("desktop")}>Escritorio</button>
       </div>
 
@@ -48,7 +48,6 @@ export const Projects = () => {
               description="Aplicación web creada como práctica de React y Firebase. La misma permite ingresar un titulo, descripción, categoría y link para guardarlos en una base de datos y poder acceder a ellos de forma remota."
               github="https://github.com/alecalgaro/tus-links"
               url_img={imgTusLinks}
-              vertical="true"
             />
           </>
 
@@ -59,11 +58,10 @@ export const Projects = () => {
                         description="ClimApp es una aplicación del clima creada en React Native para el proyecto grupal del curso de especialización en desarrollo mobile realizado en conjunto por IBM y Codo a Codo."
                         github="https://github.com/alecalgaro/App-Clima-IBM"
                         url_img={imgClimApp}
-                        vertical="true"
                     />
                 </>
 
-            : (category == "juegos") ?
+            : (category == "games") ?
                 <>
                     <Project
                         title="Videojuego - En busca de la santidad"
@@ -120,7 +118,6 @@ export const Projects = () => {
                     description="ClimApp es una aplicación del clima creada en React Native para el proyecto grupal del curso de especialización en desarrollo mobile realizado en conjunto por IBM y Codo a Codo."
                     github="https://github.com/alecalgaro/App-Clima-IBM"
                     url_img={imgClimApp}
-                    vertical="true"
                 />
 
                 <Project
@@ -128,7 +125,6 @@ export const Projects = () => {
                     description="Aplicación web creada como práctica de React y Firebase. La misma permite ingresar un titulo, descripción, categoría y link para guardarlos en una base de datos y poder acceder a ellos de forma remota."
                     github="https://github.com/alecalgaro/tus-links"
                     url_img={imgTusLinks}
-                    vertical="true"
                 />
             </>
     }
