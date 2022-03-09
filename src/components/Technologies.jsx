@@ -20,7 +20,6 @@ export const Technologies = () => {
         <section className={styles.container_technologies} id='technologies'>
             <SectionTitle title="Tecnologías"/>
             <div className={styles.content}>
-
                 <Technologie icon={iconHTML} alt="icon-html" name="HTML"/>
                 <Technologie icon={iconCSS} alt="icon-css" name="CSS"/>
                 <Technologie icon={iconBootstrap} alt="icon-bootstrap" name="BOOTSTRAP"/>
@@ -33,18 +32,6 @@ export const Technologies = () => {
                 <Technologie icon={iconGit} alt="icon-git" name="GIT"/>
                 <Technologie icon={iconGithub} alt="icon-github" name="GITHUB"/>
                 <Technologie icon={iconFigma} alt="icon-figma" name="FIGMA"/>
-                {/* <img src={iconHTML} alt="icon-html" className={styles.icon}/>
-                <img src={iconCSS} alt="icon-css" className={styles.icon}/>
-                <img src={iconBootstrap} alt="icon-bootstrap" className={styles.icon}/>
-                <img src={iconJS} alt="icon-js" className={styles.icon}/>
-                <img src={iconReact} alt="icon-react" className={styles.icon}/>
-                <img src={iconJava} alt="icon-java" className={styles.icon}/>
-                <img src={iconAndroid} alt="icon-android" className={styles.icon}/>
-                <img src={iconMySQL} alt="icon-mysql" className={styles.icon}/>
-                <img src={iconFirebase} alt="icon-firebase" className={styles.icon}/>
-                <img src={iconGit} alt="icon-git" className={styles.icon}/>
-                <img src={iconGithub} alt="icon-github" className={styles.icon}/>
-                <img src={iconFigma} alt="icon-figma" className={styles.icon}/> */}
             </div>
         </section>
     )
