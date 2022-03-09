@@ -14,12 +14,26 @@ import iconGit from '../img/icons/icon-git.webp'
 import iconGithub from '../img/icons/icon-github.webp'
 import iconFigma from '../img/icons/icon-figma.webp'
 
+import Technologie from './Technologie'
 export const Technologies = () => {
     return (
         <section className={styles.container_technologies} id='technologies'>
             <SectionTitle title="Tecnologías"/>
             <div className={styles.content}>
-                <img src={iconHTML} alt="icon-html" className={styles.icon}/>
+
+                <Technologie icon={iconHTML} alt="icon-html" name="HTML"/>
+                <Technologie icon={iconCSS} alt="icon-css" name="CSS"/>
+                <Technologie icon={iconBootstrap} alt="icon-bootstrap" name="BOOTSTRAP"/>
+                <Technologie icon={iconJS} alt="icon-js" name="JS"/>
+                <Technologie icon={iconReact} alt="icon-react" name="REACT"/>
+                <Technologie icon={iconJava} alt="icon-java" name="JAVA"/>
+                <Technologie icon={iconAndroid} alt="icon-android" name="ANDROID"/>
+                <Technologie icon={iconMySQL} alt="icon-mysql" name="MYSQL"/>
+                <Technologie icon={iconFirebase} alt="icon-firebase" name="FIREBASE"/>
+                <Technologie icon={iconGit} alt="icon-git" name="GIT"/>
+                <Technologie icon={iconGithub} alt="icon-github" name="GITHUB"/>
+                <Technologie icon={iconFigma} alt="icon-figma" name="FIGMA"/>
+                {/* <img src={iconHTML} alt="icon-html" className={styles.icon}/>
                 <img src={iconCSS} alt="icon-css" className={styles.icon}/>
                 <img src={iconBootstrap} alt="icon-bootstrap" className={styles.icon}/>
                 <img src={iconJS} alt="icon-js" className={styles.icon}/>
@@ -30,7 +44,7 @@ export const Technologies = () => {
                 <img src={iconFirebase} alt="icon-firebase" className={styles.icon}/>
                 <img src={iconGit} alt="icon-git" className={styles.icon}/>
                 <img src={iconGithub} alt="icon-github" className={styles.icon}/>
-                <img src={iconFigma} alt="icon-figma" className={styles.icon}/>
+                <img src={iconFigma} alt="icon-figma" className={styles.icon}/> */}
             </div>
         </section>
     )
