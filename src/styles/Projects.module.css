@@ -24,8 +24,8 @@
     font-size: 1.1rem;
     text-align: center;
     width: 8rem;
-    background-color: #0976B2;
-    color: #fff;
+    background-color: var(--blue);
+    color: var(--bg_grey);
     cursor: pointer;
     padding: .5rem 0;
     border: none;
@@ -35,7 +35,7 @@
 }
 
 .btn_category:hover {
-    background-color: #035886;
+    opacity: 0.8;
 }
 
 .content {

@@ -2,13 +2,12 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import BurguerButton from './BurguerButton'
 import { Social_medias } from './Social_medias'
-import imgLogo from '../img/logo-ca.png'
+import imgLogo from '../img/logo-ca.webp'
 
 export const Navbar = () => {
 
   const [clicked, setClicked] = useState(false)
   const handleClick = () => {
-    //cuando esta true lo pasa a false y vice versa
     setClicked(!clicked)
   }
   return (
@@ -22,7 +21,6 @@ export const Navbar = () => {
           <a onClick={handleClick} href="#technologies">Tecnologías</a>
           <a onClick={handleClick} href="#projects">Proyectos</a>
           <a onClick={handleClick} href="#cv">CV</a>
-          <Social_medias />
         </div>
         <div className='burguer'>
           <BurguerButton clicked={clicked} handleClick={handleClick} />
@@ -40,7 +38,7 @@ const NavContainer = styled.nav`
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #f3f4f5;
+  background-color: var(--bg_grey);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -68,14 +66,14 @@ const NavContainer = styled.nav`
     
     a{
       display: block;
-      font-size: 2.8rem;
-      margin-bottom: 1.8rem;
+      font-size: 3.5rem;
+      margin-bottom: 2rem;
       color: #fff;
       text-decoration: none;
       font-weight: 700;
       letter-spacing: 2px;
       text-transform: uppercase;
-      transition: letter-spacing .3s;
+      transition: all .3s;
       
       &:hover{
         letter-spacing: 4px;
@@ -86,13 +84,13 @@ const NavContainer = styled.nav`
 `
 
 const Logo = styled.img` 
-    width: 4.5rem;
-    height: 4.5rem;
-    margin-left: 1rem;
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1.5rem;
 `
 
 const BgDiv = styled.div`
-  background-color: #0976B2;
+  background-color: var(--blue);
   position: fixed;
   top: -1000px;
   left: -1000px;

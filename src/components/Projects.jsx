@@ -29,7 +29,7 @@ export const Projects = () => {
           <>
             <Project
               title="Página web personal"
-              description="Página web personal para contar sobre mi, mis estudios, experiencia, conocimientos y proyectos realizados. Fue realizada utilizando React, CSS y Bootstrap."
+              description="Página web personal donde se podrá encontrar infomación sobre mí, estudios, tecnologías utilizadas, proyectos realizados y cv. La misma fue realizada utilizando React."
               github="https://github.com/alecalgaro/Alejandro-Calgaro"
               web="https://alejandrocalgaro.netlify.app/"
               url_img={imgPaginaPersonal}
@@ -45,7 +45,7 @@ export const Projects = () => {
 
             <Project
               title="Tus links"
-              description="Aplicación web creada como práctica de React y Firebase. La misma permite ingresar un titulo, descripción, categoría y link para guardarlos en una base de datos y poder acceder a ellos de forma remota."
+              description="Aplicación web creada como práctica de React y Firebase. La misma permite ingresar un titulo, descripción, categoría y link para guardarlos en una base de datos y poder acceder a ellos."
               github="https://github.com/alecalgaro/tus-links"
               url_img={imgTusLinks}
             />
@@ -85,7 +85,7 @@ export const Projects = () => {
             <>
                 <Project
                     title="Página web personal"
-                    description="Página web personal para contar sobre mi, mis estudios, experiencia, conocimientos y proyectos realizados. Fue realizada utilizando React, CSS y Bootstrap."
+                    description="Página web personal donde se podrá encontrar infomación sobre mí, estudios, tecnologías utilizadas, proyectos realizados y cv. La misma fue realizada utilizando React."
                     github="https://github.com/alecalgaro/Alejandro-Calgaro"
                     web="https://alejandrocalgaro.netlify.app/"
                     url_img={imgPaginaPersonal}
@@ -122,7 +122,7 @@ export const Projects = () => {
 
                 <Project
                     title="Tus links"
-                    description="Aplicación web creada como práctica de React y Firebase. La misma permite ingresar un titulo, descripción, categoría y link para guardarlos en una base de datos y poder acceder a ellos de forma remota."
+                    description="Aplicación web creada como práctica de React y Firebase. La misma permite ingresar un titulo, descripción, categoría y link para guardarlos en una base de datos y poder acceder a ellos."
                     github="https://github.com/alecalgaro/tus-links"
                     url_img={imgTusLinks}
                 />

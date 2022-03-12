@@ -7,17 +7,12 @@
     margin-bottom: 6rem;
 }
 
-.subtitle {
-    font-size: 2rem;
-    font-weight: 900;
-    margin-bottom: 2rem;
-    text-transform: uppercase;
-}
-
 .content {
     margin: .5rem 2rem;
     width: 85%;
     text-align: center;
+    border-bottom: 1px solid var(--black);
+    
 }
 
 .year {
