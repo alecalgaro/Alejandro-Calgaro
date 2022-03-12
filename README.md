@@ -1,4 +1,4 @@
 # Alejandro Calgaro
-Página web personal creada en React para que puedas conocer más sobre mi, educación, conocimiento, proyectos realizados y cv.
+Página web personal donde se podrá encontrar infomación sobre mí, estudios, tecnologías utilizadas, proyectos realizados y cv. La misma fue realizada utilizando React.
 
 https://alejandrocalgaro.netlify.app/

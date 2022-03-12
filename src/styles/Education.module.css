@@ -12,7 +12,6 @@
     width: 85%;
     text-align: center;
     border-bottom: 1px solid var(--black);
-    
 }
 
 .year {
@@ -29,7 +28,7 @@
 }
 
 .description {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
 }
 
@@ -43,6 +42,6 @@
 
 @media (min-width: 992px) {
     .content {
-        width: 40%;
+        width: 50%;
     }
 }
