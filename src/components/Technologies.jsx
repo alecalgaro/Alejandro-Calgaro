@@ -13,8 +13,8 @@ import iconFirebase from '../img/icons/icon-firebase.webp'
 import iconGit from '../img/icons/icon-git.webp'
 import iconGithub from '../img/icons/icon-github.webp'
 import iconFigma from '../img/icons/icon-figma.webp'
-
 import Technologie from './Technologie'
+
 export const Technologies = () => {
     return (
         <section className={styles.container_technologies} id='technologies'>

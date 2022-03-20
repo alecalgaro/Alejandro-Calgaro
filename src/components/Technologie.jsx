@@ -1,9 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
+import { motion } from "framer-motion"
 
 const Technologie = ({icon, alt, name}) => {
   return (
-    <Container>
+    <Container initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
         <img src={icon} alt={alt}/>
         <p>{name}</p>
     </Container>
@@ -12,7 +13,7 @@ const Technologie = ({icon, alt, name}) => {
 
 export default Technologie
 
-const Container = styled.div`
+const Container = styled(motion.div)`
     width: 8rem;    
     display: inline-block;
     margin: 2rem 3rem;
