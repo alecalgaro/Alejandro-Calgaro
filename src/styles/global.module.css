@@ -1,8 +1,9 @@
 /* Estilos globales (usados en App.jsx) */
 :root{
-    --blue: #146A99;
-    --bg_grey: #f3f4f5;
-    --black: #1a1a1a;
+    --blue: #0f5dac;
+    --bg_grey: #f4f4f4;
+    --bg_white: #fdfdfd;
+    --black: #141414;
 }
 
 * {
@@ -23,4 +24,5 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg_white);
 }
