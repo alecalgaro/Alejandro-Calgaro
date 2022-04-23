@@ -2,50 +2,59 @@
 	{
 		"id_project": 1,
         "title": "Página web personal",
-        "description": "Página web personal donde se podrá encontrar infomación sobre mí, estudios, tecnologías utilizadas, proyectos realizados y cv. La misma fue realizada utilizando React.",
-		"img": "1FdcK7J4s0b-8OQ1oVEco3LfFTfHjutTu",
+        "description": "Página web personal donde se podrá encontrar infomación sobre mí, estudios, tecnologías utilizadas, proyectos realizados y cv. La misma fue desarrollada utilizando React.",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/pagina-personal_bg00t7.webp",
         "web": "https://alejandrocalgaro.netlify.app/",
         "github": "https://github.com/alecalgaro/Alejandro-Calgaro",
         "category": "web"
 	},
     {
 		"id_project": 2,
+        "title": "Helios Arquitectura",
+        "description": "Página web para estudio de Arquitectura, Diseño y Urbanismo, desarrolla con React, Styled-Components y animaciones con Framer Motion.",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/helios_k7xfvb.webp",
+        "web": "https://heliosarquitectura.com.ar/",
+        "github": "https://github.com/alecalgaro/helios-arquitectura",
+        "category": "web"
+	},
+    {
+		"id_project": 3,
         "title": "Página web - En busca de la santidad",
         "description": "Página web para el videojuego 'En busca de la santidad', creado para la Infancia y Adolescencia Misionera. Fue realizada utilizando HTML, CSS, Bootstrap y JS.",
-		"img": "1y4FT2M64FhDLUPhEihzdyeZMeDPKO6ww",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678449/Portfolio%20-%20Alejandro%20Calgaro/enbuscadelasantidad-web_khzkhp.webp",
         "web": "https://enbuscadelasantidad.com.ar/",
         "github": "https://github.com/alecalgaro/enbuscadelasantidad",
         "category": "web"
 	},
     {
-		"id_project": 3,
+		"id_project": 4,
         "title": "Videojuego - En busca de la santidad",
         "description": "Videojuego 'En busca de la santidad', creado para la Infancia y Adolescencia Misionera. El mismo puede ser jugado de forma online o descargándolo en dispositivos móviles android y computadoras.",
-		"img": "1dzx1Ep1GTI2XU2uCJPM9UnzGMaVR52Vj",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/enbuscadelasantidad-juego_dfkznv.webp",
         "web": "http://enbuscadelasantidad.itch.io/juego",
         "category": "games"
 	},
     {
-		"id_project": 4,
+		"id_project": 5,
         "title": "Tus links",
         "description": "Aplicación web creada como práctica de React y Firebase. La misma permite ingresar un titulo, descripción, categoría y link para guardarlos en una base de datos y poder acceder a ellos.",
-		"img": "17VNka84nksfo4USuOI2d9vJvrLZ_I0Yn",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/tus-links_sximqx.webp",
         "github": "https://github.com/alecalgaro/tus-links",
         "category": "web"
 	},
     {
-		"id_project": 5,
+		"id_project": 6,
         "title": "ClimApp",
         "description": "ClimApp es una aplicación del clima creada en React Native para el proyecto grupal del curso de especialización en desarrollo mobile realizado en conjunto por IBM y Codo a Codo.",
-		"img": "1XJa9Gaib_LoRIuPS87BgkKbqS5yx7_88",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/app-clima_wqhxfp.webp",
         "github": "https://github.com/alecalgaro/App-Clima-IBM",
         "category": "movil"
 	},
     {
-		"id_project": 6,
+		"id_project": 7,
         "title": "VSM",
         "description": "Software destinado a la gestión de viviendas sociales en madera y automatización de la tarea de diseño de las mismas en AutoCAD. Contiene una interfaz gráfica desarrollada en Java y la automatización en AutoLISP.",
-		"img": "1IG89oVpFDgAGS4zWHZit-_2FwkYqW6hd",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/vsm_pms8gm.webp",
         "github": "https://github.com/alecalgaro/vsm",
         "category": "desktop"
 	}

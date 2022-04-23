@@ -28,7 +28,7 @@ export const Projects = () => {
                 description={project.description}
                 github={project.github}
                 web={project.web}
-                url_img={"https://drive.google.com/uc?export=view&id="+project.img}   
+                url_img={project.img}   
               />                       
             )) 
           :
@@ -39,7 +39,7 @@ export const Projects = () => {
                 description={project.description}
                 github={project.github}
                 web={project.web}
-                url_img={"https://drive.google.com/uc?export=view&id="+project.img}   
+                url_img={project.img}   
             />                       
             ))
         }
