@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import BurguerButton from './BurguerButton'
-import { Social_medias } from './Social_medias'
 import imgLogo from '../img/logo-ca.webp'
 
 export const Navbar = () => {

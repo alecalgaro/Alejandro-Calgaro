@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 const Technologie = ({icon, alt, name}) => {
   return (
-    <Container initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+    <Container initial={{ opacity: 0 }} whileInView={{ opacity: 1}} viewport={{ once: true , margin: "-10%" }}>
         <img src={icon} alt={alt}/>
         <p>{name}</p>
     </Container>
