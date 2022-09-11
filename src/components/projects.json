@@ -2,7 +2,7 @@
 	{
 		"id_project": 1,
 		"title": "Página web personal",
-		"description": "Página web personal donde se podrá encontrar infomación sobre mí, estudios, tecnologías utilizadas, proyectos realizados y cv. La misma fue desarrollada utilizando React.",
+		"description": "Página web personal donde se podrá encontrar infomación sobre mí, estudios, tecnologías utilizadas, proyectos realizados y cv. La misma fue desarrollada utilizando React y styled-components.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/pagina-personal_bg00t7.webp",
 		"web": "https://alejandrocalgaro.netlify.app/",
 		"github": "https://github.com/alecalgaro/Alejandro-Calgaro",
@@ -29,9 +29,9 @@
 	{
 		"id_project": 4,
 		"title": "Videojuego - En busca de la santidad",
-		"description": "Videojuego 'En busca de la santidad', creado para la Infancia y Adolescencia Misionera. El mismo puede ser jugado de forma online o descargándolo en dispositivos móviles android y computadoras.",
+		"description": "Videojuego 'En busca de la santidad', creado para la Infancia y Adolescencia Misionera a nivel mundial. El mismo puede ser jugado de forma online o descargándolo en dispositivos móviles android y computadoras. Traducido a 5 idiomas.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/enbuscadelasantidad-juego_dfkznv.webp",
-		"web": "http://enbuscadelasantidad.itch.io/juego",
+		"web": "http://enbuscadelasantidad.itch.io/game",
 		"category": "games"
 	},
 	{

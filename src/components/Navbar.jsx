@@ -8,6 +8,9 @@ export const Navbar = () => {
 	const handleClick = () => {
 		setClicked(!clicked);
 	};
+	const handleClickLink = () => {
+		setClicked(!clicked);
+	};
 	return (
 		<>
 			<NavContainer>
@@ -16,22 +19,22 @@ export const Navbar = () => {
 					<Logo src={imgLogo} alt="logo-ca" />{" "}
 				</a>
 				<div className={`links ${clicked ? "active" : ""}`}>
-					<a onClick={handleClick} href="#home">
+					<a onClick={handleClickLink} href="#home">
 						Inicio
 					</a>
-					<a onClick={handleClick} href="#about">
+					<a onClick={handleClickLink} href="#about">
 						Sobre mí
 					</a>
-					<a onClick={handleClick} href="#education">
+					<a onClick={handleClickLink} href="#education">
 						Educación
 					</a>
-					<a onClick={handleClick} href="#technologies">
+					<a onClick={handleClickLink} href="#technologies">
 						Tecnologías
 					</a>
-					<a onClick={handleClick} href="#projects">
+					<a onClick={handleClickLink} href="#projects">
 						Proyectos
 					</a>
-					<a onClick={handleClick} href="#cv">
+					<a onClick={handleClickLink} href="#cv">
 						CV
 					</a>
 				</div>
