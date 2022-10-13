@@ -34,8 +34,8 @@ export const Education = () => {
 				<p className={styles.year}>Otros</p>
 				<p className={styles.title}>Cursos online</p>
 				<p className={styles.description}>
-					Cursos sobre desarrollo web (HTML, CSS, Bootstrap, JS, React), desarrollo móvil (React
-					Native) y otros (Git/Github, Firebase, Figma).
+					Cursos sobre desarrollo web (HTML, CSS, Bootstrap, JS, React), desarrollo móvil (Android y
+					React Native) y otros (Git/Github, Firebase, Figma).
 				</p>
 			</div>
 		</section>

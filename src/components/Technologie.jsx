@@ -31,8 +31,10 @@ const Container = styled(motion.div)`
 		font-size: 1.2rem;
 	}
 
-	&:hover {
-		transform: scale(1.2);
+	@media (hover: hover) {
+		&:hover {
+			transform: scale(1.1);
+		}
 	}
 
 	@media (min-width: 992px) {
