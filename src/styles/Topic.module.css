@@ -1,0 +1,22 @@
+.topic_text {
+	display: inline-block;
+	border: 2px solid var(--blue);
+	border-radius: 1rem;
+	font-size: 1.3rem;
+	padding: 0.2rem 1rem;
+	margin: 0 0.5rem 1rem 0.5rem;
+	transition: all 0.3s;
+}
+
+@media (hover: hover) {
+	.topic_text:hover {
+		background-color: var(--blue);
+		color: var(--white);
+	}
+}
+
+@media (min-width: 576px) {
+	.topic_text {
+		margin-bottom: 1.5rem;
+	}
+}

@@ -2,8 +2,9 @@
 	{
 		"id_project": 1,
 		"title": "Página web personal",
-		"description": "Página web personal donde se podrá encontrar infomación sobre mí, estudios, tecnologías utilizadas, proyectos realizados y cv. La misma fue desarrollada utilizando React y styled-components.",
+		"description": "Página web personal donde se podrá encontrar infomación sobre mí, estudios, tecnologías utilizadas, proyectos realizados y cv.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/pagina-personal_bg00t7.webp",
+		"topics": ["React", "CSS modules"],
 		"web": "https://alejandrocalgaro.netlify.app/",
 		"github": "https://github.com/alecalgaro/Alejandro-Calgaro",
 		"category": "web"
@@ -11,8 +12,9 @@
 	{
 		"id_project": 2,
 		"title": "Helios Arquitectura",
-		"description": "Página web para estudio de Arquitectura, Diseño y Urbanismo, desarrolla con React, Styled-Components y animaciones con Framer Motion.",
+		"description": "Sitio web para estudio de Arquitectura, Diseño y Urbanismo.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/helios_k7xfvb.webp",
+		"topics": ["React", "Styled-componentes", "Framer motion"],
 		"web": "https://heliosarquitectura.com.ar/",
 		"github": "https://github.com/alecalgaro/helios-arquitectura",
 		"category": "web"
@@ -20,8 +22,9 @@
 	{
 		"id_project": 3,
 		"title": "Página web - En busca de la santidad",
-		"description": "Página web para el videojuego 'En busca de la santidad', creado para la Infancia y Adolescencia Misionera a nivel mundial. Fue realizada utilizando React y Styled-Components.",
+		"description": "Página web para el videojuego 'En busca de la santidad', creado para la Infancia y Adolescencia Misionera a nivel mundial.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1659574256/Portfolio%20-%20Alejandro%20Calgaro/enbuscadelasantidad-web_bchhbn.webp",
+		"topics": ["React", "Styled-componentes", "Bootstrap"],
 		"web": "https://enbuscadelasantidad.com",
 		"github": "https://github.com/alecalgaro/enbuscadelasantidad-web",
 		"category": "web"
@@ -39,6 +42,7 @@
 		"title": "Tus links",
 		"description": "Aplicación web creada como práctica de React y Firebase. La misma permite ingresar un titulo, descripción, categoría y link para guardarlos en una base de datos y poder acceder a ellos.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/tus-links_sximqx.webp",
+		"topics": ["React", "Styled-componentes", "Firebase"],
 		"github": "https://github.com/alecalgaro/tus-links",
 		"category": "web"
 	},
@@ -47,6 +51,7 @@
 		"title": "ClimApp",
 		"description": "ClimApp es una aplicación del clima creada en React Native para el proyecto grupal del curso de especialización en desarrollo mobile realizado en conjunto por IBM y Codo a Codo.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/app-clima_wqhxfp.webp",
+		"topics": ["React Native"],
 		"github": "https://github.com/alecalgaro/App-Clima-IBM",
 		"category": "movil"
 	},
@@ -55,6 +60,7 @@
 		"title": "VSM",
 		"description": "Software destinado a la gestión de viviendas sociales en madera y automatización de la tarea de diseño de las mismas en AutoCAD. Contiene una interfaz gráfica desarrollada en Java y la automatización en AutoLISP.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/vsm_pms8gm.webp",
+		"topics": ["Java", "MySQL", "AutoLisp"],
 		"github": "https://github.com/alecalgaro/vsm",
 		"category": "desktop"
 	}

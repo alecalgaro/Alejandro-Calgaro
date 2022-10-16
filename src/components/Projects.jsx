@@ -38,6 +38,7 @@ export const Projects = () => {
 									key={project.id_project}
 									title={project.title}
 									description={project.description}
+									topics={project.topics}
 									github={project.github}
 									web={project.web}
 									url_img={project.img}
@@ -48,6 +49,7 @@ export const Projects = () => {
 								key={project.id_project}
 								title={project.title}
 								description={project.description}
+								topics={project.topics}
 								github={project.github}
 								web={project.web}
 								url_img={project.img}
