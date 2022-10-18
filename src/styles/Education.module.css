@@ -1,47 +1,47 @@
 .container_education {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 80%;
-    margin-bottom: 6rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 80%;
+	margin-bottom: 6rem;
 }
 
 .content {
-    margin: .5rem 2rem;
-    width: 85%;
-    text-align: center;
-    border-bottom: 1px solid var(--black);
+	margin: 0.5rem 2rem;
+	width: 85%;
+	text-align: center;
+	border-bottom: 1px solid var(--black);
 }
 
 .year {
-    font-size: 1.4rem;
-    color: var(--blue);
-    font-weight: 700;
-    margin-top: 1rem;
+	font-size: 1.4rem;
+	color: var(--secondary);
+	font-weight: 700;
+	margin-top: 1rem;
 }
 
 .title {
-    font-size: 1.8rem;
-    font-style: italic;
-    margin: 1rem 0;
+	font-size: 1.8rem;
+	font-style: italic;
+	margin: 1rem 0;
 }
 
 .description {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
 }
 
 /* media queries mobile first */
 
-@media (min-width: 768px) { 
-    .content {
-        width: 60%;
-    }
-} 
+@media (min-width: 768px) {
+	.content {
+		width: 60%;
+	}
+}
 
 @media (min-width: 992px) {
-    .content {
-        width: 50%;
-    }
+	.content {
+		width: 50%;
+	}
 }

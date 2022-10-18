@@ -21,10 +21,10 @@ const Container = styled(motion.div)`
 	width: 8rem;
 	display: inline-block;
 	margin: 2rem 3rem;
-	transition: all 0.3s;
 
 	img {
 		width: 6rem;
+		transition: all 0.3s;
 	}
 
 	p {
@@ -33,7 +33,9 @@ const Container = styled(motion.div)`
 
 	@media (hover: hover) {
 		&:hover {
-			transform: scale(1.1);
+			img {
+				transform: scale(0.9);
+			}
 		}
 	}
 

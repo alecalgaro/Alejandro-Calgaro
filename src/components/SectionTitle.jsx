@@ -14,6 +14,6 @@ const Title = styled.div`
 	position: relative;
 	margin-bottom: 3rem;
 	letter-spacing: 0.2rem;
-	border-bottom: 4px solid var(--blue);
+	border-bottom: 4px solid var(--primary);
 	color: var(--black);
 `;

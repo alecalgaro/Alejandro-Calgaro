@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "../styles/Project.module.css";
 import Topic from "../components/Topic";
-import iconGithub from "../img/icons/icon-github.webp";
-import iconWeb from "../img/icons/icon-web.webp";
+import iconGithub from "../img/icons/icon-github-sec.svg";
+import iconWeb from "../img/icons/icon-web.svg";
 import { motion } from "framer-motion";
 
 const variants = {

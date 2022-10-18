@@ -16,7 +16,7 @@
 h3 {
 	font-size: 1.8rem;
 	font-weight: 700;
-	color: var(--blue);
+	color: var(--secondary);
 }
 
 p {
@@ -41,7 +41,7 @@ p {
 }
 
 .icon {
-	width: 3rem;
+	width: 3.2rem;
 	margin: 0 1rem;
 }
 

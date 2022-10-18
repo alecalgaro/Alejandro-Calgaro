@@ -1,9 +1,10 @@
 /* Estilos globales (usados en App.jsx) */
 :root {
-	--blue: #0066aa;
-	--bg_grey: #f4f4f4;
+	--primary: #2277cc;
+	--secondary: #2a91cf;
+	--grey: #f4f4f4;
 	--white: #fafafa;
-	--black: #141414;
+	--black: #282828;
 }
 
 * {
@@ -23,6 +24,10 @@ html {
 }
 
 body {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	background-color: var(--white);
+}
+
+p {
+	color: var(--black);
 }

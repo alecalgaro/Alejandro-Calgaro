@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import BurguerButton from "./BurguerButton";
-import imgLogo from "../img/logo-ca.webp";
+import imgLogo from "../img/logo.webp";
 
 export const Navbar = () => {
 	const [clicked, setClicked] = useState(false);
@@ -15,8 +15,7 @@ export const Navbar = () => {
 		<>
 			<NavContainer>
 				<a href="#home">
-					{" "}
-					<Logo src={imgLogo} alt="logo-ca" />{" "}
+					<Logo src={imgLogo} alt="logo" />
 				</a>
 				<div className={`links ${clicked ? "active" : ""}`}>
 					<a onClick={handleClickLink} href="#home">
@@ -54,7 +53,7 @@ const NavContainer = styled.nav`
 	position: fixed;
 	top: 0;
 	left: 0;
-	background-color: var(--bg_grey);
+	background-color: var(--white);
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -75,7 +74,7 @@ const NavContainer = styled.nav`
 		position: absolute;
 		margin-left: auto;
 		margin-right: auto;
-		top: 200px;
+		top: 150px;
 		left: 0;
 		right: 0;
 		text-align: center;
@@ -91,22 +90,23 @@ const NavContainer = styled.nav`
 			text-transform: uppercase;
 			transition: all 0.3s;
 
-			&:hover {
-				letter-spacing: 4px;
-				opacity: 0.8;
+			@media (hover: hover) {
+				&:hover {
+					opacity: 0.5;
+				}
 			}
 		}
 	}
 `;
 
 const Logo = styled.img`
-	width: 4rem;
-	height: 4rem;
+	width: 6rem;
+	height: 3rem;
 	margin-left: 1.5rem;
 `;
 
 const BgDiv = styled.div`
-	background-color: var(--blue);
+	background-color: var(--primary);
 	position: fixed;
 	top: -1000px;
 	left: -1000px;

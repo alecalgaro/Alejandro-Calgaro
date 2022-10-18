@@ -4,7 +4,7 @@ import styles from "../styles/Topic.module.css";
 const Topic = ({ text }) => {
 	return (
 		<>
-			<p className={styles.topic_text}>{text}</p>;
+			<p className={styles.topic_text}>{text}</p>
 		</>
 	);
 };

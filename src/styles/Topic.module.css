@@ -1,16 +1,18 @@
 .topic_text {
 	display: inline-block;
-	border: 2px solid var(--blue);
+	border: 2px solid var(--secondary);
+	color: var(--black);
 	border-radius: 1rem;
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	padding: 0.2rem 1rem;
 	margin: 0 0.5rem 1rem 0.5rem;
+	text-transform: uppercase;
 	transition: all 0.3s;
 }
 
 @media (hover: hover) {
 	.topic_text:hover {
-		background-color: var(--blue);
+		background-color: var(--secondary);
 		color: var(--white);
 	}
 }

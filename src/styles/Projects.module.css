@@ -24,8 +24,8 @@
 	font-size: 1.1rem;
 	text-align: center;
 	width: 8rem;
-	background-color: var(--blue);
-	color: var(--bg_grey);
+	background-color: var(--primary);
+	color: var(--grey);
 	cursor: pointer;
 	padding: 0.5rem 0;
 	border: none;

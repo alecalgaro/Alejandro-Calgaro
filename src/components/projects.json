@@ -3,7 +3,7 @@
 		"id_project": 1,
 		"title": "Página web personal",
 		"description": "Página web personal donde se podrá encontrar infomación sobre mí, estudios, tecnologías utilizadas, proyectos realizados y cv.",
-		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/pagina-personal_bg00t7.webp",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1666051944/Portfolio%20-%20Alejandro%20Calgaro/portfolio_ikf9jo.webp",
 		"topics": ["React", "CSS modules"],
 		"web": "https://alejandrocalgaro.netlify.app/",
 		"github": "https://github.com/alecalgaro/Alejandro-Calgaro",
