@@ -2,7 +2,7 @@
 	{
 		"id_project": 1,
 		"title": "Página web personal",
-		"description": "Página web personal donde se podrá encontrar infomación sobre mí, estudios, tecnologías utilizadas, proyectos realizados y cv.",
+		"description": "Porfolio personal, aquí encontrarás información sobre mí, como estudios, tecnologías utilizadas, proyectos realizados y cv.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1666051944/Portfolio%20-%20Alejandro%20Calgaro/portfolio_ikf9jo.webp",
 		"topics": ["React", "CSS modules"],
 		"web": "https://alejandrocalgaro.netlify.app/",
@@ -40,7 +40,7 @@
 	{
 		"id_project": 5,
 		"title": "Tus links",
-		"description": "Aplicación web creada como práctica de React y Firebase. La misma permite ingresar un titulo, descripción, categoría y link para guardarlos en una base de datos y poder acceder a ellos.",
+		"description": "Aplicación web realizada como práctica, la misma permite ingresar un titulo, descripción, categoría y link para guardarlos en una base de datos y poder acceder a ellos.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/tus-links_sximqx.webp",
 		"topics": ["React", "Styled-componentes", "Firebase"],
 		"github": "https://github.com/alecalgaro/tus-links",
@@ -49,7 +49,7 @@
 	{
 		"id_project": 6,
 		"title": "ClimApp",
-		"description": "ClimApp es una aplicación del clima creada en React Native para el proyecto grupal del curso de especialización en desarrollo mobile realizado en conjunto por IBM y Codo a Codo.",
+		"description": "Aplicación del clima creada en React Native para el proyecto grupal del curso de especialización en desarrollo mobile realizado en conjunto por IBM y Codo a Codo.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/app-clima_wqhxfp.webp",
 		"topics": ["React Native"],
 		"github": "https://github.com/alecalgaro/App-Clima-IBM",

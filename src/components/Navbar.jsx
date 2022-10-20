@@ -74,7 +74,7 @@ const NavContainer = styled.nav`
 		position: absolute;
 		margin-left: auto;
 		margin-right: auto;
-		top: 150px;
+		top: 200px;
 		left: 0;
 		right: 0;
 		text-align: center;
