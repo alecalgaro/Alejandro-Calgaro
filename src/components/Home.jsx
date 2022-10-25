@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
 import { Social_medias } from "./Social_medias";
-import imgLogo from "../img/logo.webp";
+import imgLogo from "../img/logo_ac.webp";
 import { motion } from "framer-motion";
 
 const variants = {

@@ -5,7 +5,6 @@ const SectionTitle = ({ title }) => {
 	return (
 		<>
 			<Title>{title}</Title>
-			{/* <div></div> */}
 		</>
 	);
 };

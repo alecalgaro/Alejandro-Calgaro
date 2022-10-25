@@ -1,21 +1,23 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import BurguerButton from "./BurguerButton";
-import imgLogo from "../img/logo.webp";
+import imgLogo from "../img/logo_ac.webp";
 
 export const Navbar = () => {
 	const [clicked, setClicked] = useState(false);
-	const handleClick = () => {
-		setClicked(!clicked);
-	};
+
 	const handleClickLink = () => {
+		setClicked(false);
+	};
+
+	const handleClickBtn = () => {
 		setClicked(!clicked);
 	};
 	return (
 		<>
 			<NavContainer>
 				<a href="#home">
-					<Logo src={imgLogo} alt="logo" />
+					<img src={imgLogo} alt="logo" />
 				</a>
 				<div className={`links ${clicked ? "active" : ""}`}>
 					<a onClick={handleClickLink} href="#home">
@@ -38,7 +40,7 @@ export const Navbar = () => {
 					</a>
 				</div>
 				<div className="burguer">
-					<BurguerButton clicked={clicked} handleClick={handleClick} />
+					<BurguerButton clicked={clicked} handleClick={handleClickBtn} />
 				</div>
 			</NavContainer>
 
@@ -59,65 +61,94 @@ const NavContainer = styled.nav`
 	justify-content: space-between;
 	width: 100%;
 	z-index: 10;
+	padding: 0.5rem;
+
+	@media (min-width: 768px) {
+		padding: 0.5rem;
+	}
+
+	img {
+		width: 5rem;
+		height: 3rem;
+		margin-left: 1.5rem;
+	}
 
 	.links {
 		position: absolute;
 		top: -700px;
-		left: -1000px;
+		left: -1500px;
 		right: 0; /* es para cuando se cierra el menu, para que se vaya hacia la izquierda y arriba */
 		text-align: center;
 		transition: all 0.5s ease;
-	}
-
-	.links.active {
-		width: 100%;
-		position: absolute;
-		margin-left: auto;
-		margin-right: auto;
-		top: 200px;
-		left: 0;
-		right: 0;
-		text-align: center;
 
 		a {
+			color: var(--white);
 			display: block;
-			font-size: 3.5rem;
-			margin-bottom: 2rem;
-			color: #fff;
-			text-decoration: none;
-			font-weight: 700;
-			letter-spacing: 2px;
+			font-size: 3rem;
 			text-transform: uppercase;
+			font-weight: 600;
+			letter-spacing: 2px;
+			margin: 1.5rem;
+			text-decoration: none;
 			transition: all 0.3s;
 
-			@media (hover: hover) {
+			&:hover {
+				color: var(--black);
+			}
+		}
+
+		@media (min-width: 768px) {
+			position: initial;
+			margin: 0;
+			padding: 1rem;
+
+			a {
+				font-size: 1.2rem;
+				color: var(--black);
+				display: inline;
+				margin-left: 1rem;
+				font-weight: 600;
+
 				&:hover {
-					opacity: 0.5;
+					color: var(--secondary);
 				}
 			}
 		}
 	}
-`;
 
-const Logo = styled.img`
-	width: 6rem;
-	height: 3rem;
-	margin-left: 1.5rem;
+	.links.active {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100vw;
+		height: 100vh;
+		position: absolute;
+		top: 2rem;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
+
+	.burguer {
+		@media (min-width: 768px) {
+			display: none;
+		}
+	}
 `;
 
 const BgDiv = styled.div`
 	background-color: var(--primary);
 	position: fixed;
 	top: -1000px;
-	left: -1000px;
+	left: -1500px;
 	width: 100%;
 	height: 100%;
-	transition: all 0.6s ease;
 	z-index: 1;
+	transition: all 0.6s ease;
 
 	&.active {
-		/* border-radius: 0 0 50% 0; */
-		top: 51px;
+		top: 50px;
 		left: 0;
 	}
 `;
