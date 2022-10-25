@@ -86,9 +86,9 @@ const NavContainer = styled.nav`
 			display: block;
 			font-size: 3rem;
 			text-transform: uppercase;
-			font-weight: 600;
+			font-weight: 800;
 			letter-spacing: 2px;
-			margin: 1.5rem;
+			margin: 1.2rem;
 			text-decoration: none;
 			transition: all 0.3s;
 
