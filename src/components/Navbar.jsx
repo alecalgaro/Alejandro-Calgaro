@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import BurguerButton from "./BurguerButton";
-import imgLogo from "../img/logo_ac.webp";
+import imgLogo from "../img/logo_navbar.webp";
 
 export const Navbar = () => {
 	const [clicked, setClicked] = useState(false);
@@ -68,9 +68,8 @@ const NavContainer = styled.nav`
 	}
 
 	img {
-		width: 5rem;
-		height: 3rem;
-		margin-left: 1.5rem;
+		width: 4rem;
+		margin-left: 1rem;
 	}
 
 	.links {
@@ -103,7 +102,8 @@ const NavContainer = styled.nav`
 			padding: 1rem;
 
 			a {
-				font-size: 1.2rem;
+				font-size: 1.3rem;
+				letter-spacing: 1px;
 				color: var(--black);
 				display: inline;
 				margin-left: 1rem;
