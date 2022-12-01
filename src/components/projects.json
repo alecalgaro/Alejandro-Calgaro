@@ -2,7 +2,7 @@
 	{
 		"id_project": 1,
 		"title": "Página web personal",
-		"description": "Porfolio personal, aquí encontrarás información sobre mí, como estudios, tecnologías utilizadas, proyectos realizados y cv.",
+		"description": "Porfolio personal, aquí encontrarás información sobre mí, estudios, tecnologías utilizadas, proyectos realizados y cv.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1666051944/Portfolio%20-%20Alejandro%20Calgaro/portfolio_ikf9jo.webp",
 		"topics": ["React", "CSS modules"],
 		"web": "https://alejandrocalgaro.netlify.app/",
