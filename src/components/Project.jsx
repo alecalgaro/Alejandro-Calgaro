@@ -13,7 +13,13 @@ const variants = {
 export const Project = ({ title, description, url_img, topics, github, web }) => {
 	return (
 		<>
-			<motion.div className={styles.project} initial="hidden" animate="visible" variants={variants}>
+			<motion.div
+				className={styles.project}
+				initial="hidden"
+				animate="visible"
+				variants={variants}
+				transition={{ duration: 0.3 }}
+			>
 				<div className={styles.column1}>
 					<h3>{title}</h3>
 					<p>{description}</p>

@@ -23,7 +23,7 @@ const Title = styled.div`
 	&:after {
 		content: "";
 		display: block; // para que aparezca abajo
-		background-color: var(--primary);
+		background-color: var(--secondary);
 		height: 8px;
 		margin: -1.8rem 0 0 0;
 	}
