@@ -7,6 +7,7 @@ import { Education } from "./components/Education";
 import { Technologies } from "./components/Technologies";
 import { Projects } from "./components/Projects";
 import { CV } from "./components/CV";
+import { Contact } from "./components/Contact";
 
 function App() {
 	return (
@@ -23,6 +24,7 @@ function App() {
 			</main>
 			<footer>
 				<CV />
+				<Contact />
 			</footer>
 		</div>
 	);
