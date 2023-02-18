@@ -19,32 +19,7 @@
 
 .content {
 	margin: 0.5rem 2rem;
-	width: 100%;
+	width: 90%;
+	max-width: 70rem;
 	text-align: center;
-}
-
-/* media queries mobile first */
-
-@media (min-width: 576px) {
-	.content {
-		width: 80%;
-	}
-}
-
-@media (min-width: 892px) {
-	.content {
-		width: 70%;
-	}
-}
-
-@media (min-width: 1100px) {
-	.content {
-		width: 60%;
-	}
-}
-
-@media (min-width: 1300px) {
-	.content {
-		width: 50%;
-	}
 }

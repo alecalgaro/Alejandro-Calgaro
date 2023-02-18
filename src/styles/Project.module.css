@@ -5,6 +5,16 @@
 	align-items: center;
 	padding: 3rem 0;
 	border-bottom: 1px solid var(--black);
+	animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 .column1 {

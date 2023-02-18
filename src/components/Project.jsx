@@ -3,23 +3,11 @@ import styles from "../styles/Project.module.css";
 import Topic from "../components/Topic";
 import iconGithub from "../img/icons/icon-github-sec.svg";
 import iconWeb from "../img/icons/icon-web.svg";
-import { motion } from "framer-motion";
-
-const variants = {
-	hidden: { opacity: 0, scale: 0 },
-	visible: { opacity: 1, scale: 1 },
-};
 
 export const Project = ({ title, description, url_img, topics, github, web }) => {
 	return (
 		<>
-			<motion.div
-				className={styles.project}
-				initial="hidden"
-				animate="visible"
-				variants={variants}
-				transition={{ duration: 0.3 }}
-			>
+			<div className={styles.project}>
 				<div className={styles.column1}>
 					<h3>{title}</h3>
 					<p>{description}</p>
@@ -40,7 +28,7 @@ export const Project = ({ title, description, url_img, topics, github, web }) =>
 					</div>
 				</div>
 				<img src={url_img} alt="imagen proyecto" className={styles.img_project} />
-			</motion.div>
+			</div>
 		</>
 	);
 };
