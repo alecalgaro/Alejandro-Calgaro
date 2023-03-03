@@ -1,30 +1,20 @@
 import React from "react";
-import styled from "styled-components";
+import useIntersection from "../hooks/useIntersection";
+
+import styles from "../styles/SectionTitle.module.css";
 
 const SectionTitle = ({ title }) => {
+	const [elementRef, isIntersecting] = useIntersection({
+		threshold: 0.1,
+	});
+
 	return (
 		<>
-			<Title>{title}</Title>
+			<h3 ref={elementRef} className={`${styles.title} ${isIntersecting ? styles.underline : ""}`}>
+				{title}
+			</h3>
 		</>
 	);
 };
 
 export default SectionTitle;
-
-const Title = styled.div`
-	font-size: 3rem;
-	font-weight: 900;
-	text-transform: uppercase;
-	position: relative;
-	margin-bottom: 3rem;
-	letter-spacing: 0.2rem;
-	color: var(--black);
-
-	&:after {
-		content: "";
-		display: block; // para que aparezca abajo
-		background-color: var(--secondary);
-		height: 8px;
-		margin: -1.8rem 0 0 0;
-	}
-`;

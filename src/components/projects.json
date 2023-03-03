@@ -1,16 +1,6 @@
 [
 	{
 		"id_project": 1,
-		"title": "Página web personal",
-		"description": "Porfolio personal, aquí encontrarás información sobre mí, estudios, tecnologías utilizadas, proyectos realizados y cv.",
-		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1666051944/Portfolio%20-%20Alejandro%20Calgaro/portfolio_ikf9jo.webp",
-		"topics": ["React", "CSS modules"],
-		"web": "https://alejandrocalgaro.com.ar",
-		"github": "https://github.com/alecalgaro/Alejandro-Calgaro",
-		"category": "web"
-	},
-	{
-		"id_project": 2,
 		"title": "Magia con propósito - Talleres de magia",
 		"description": "Sitio web para talleres de magia online.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1670954269/Portfolio%20-%20Alejandro%20Calgaro/talleres-magia_c84v4j.webp",
@@ -20,7 +10,7 @@
 		"category": "web"
 	},
 	{
-		"id_project": 3,
+		"id_project": 2,
 		"title": "Helios Arquitectura",
 		"description": "Sitio web para estudio de Arquitectura, Diseño y Urbanismo.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/helios_k7xfvb.webp",
@@ -30,7 +20,7 @@
 		"category": "web"
 	},
 	{
-		"id_project": 4,
+		"id_project": 3,
 		"title": "Página web - En busca de la santidad",
 		"description": "Página web para el videojuego 'En busca de la santidad', creado para la Infancia y Adolescencia Misionera a nivel mundial.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1659574256/Portfolio%20-%20Alejandro%20Calgaro/enbuscadelasantidad-web_bchhbn.webp",
@@ -40,7 +30,7 @@
 		"category": "web"
 	},
 	{
-		"id_project": 5,
+		"id_project": 4,
 		"title": "Videojuego - En busca de la santidad",
 		"description": "Videojuego 'En busca de la santidad', creado para la Infancia y Adolescencia Misionera a nivel mundial. El mismo puede ser jugado de forma online o descargándolo en dispositivos móviles android y computadoras. Traducido a 5 idiomas.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/enbuscadelasantidad-juego_dfkznv.webp",
@@ -48,7 +38,7 @@
 		"category": "games"
 	},
 	{
-		"id_project": 6,
+		"id_project": 5,
 		"title": "Memojis",
 		"description": "Juego de la memoria o memotest utilizando los emojis elegidos por el usuario.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1676683913/Portfolio%20-%20Alejandro%20Calgaro/memojis_ctm3c3.webp",
@@ -58,7 +48,7 @@
 		"category": "games"
 	},
 	{
-		"id_project": 7,
+		"id_project": 6,
 		"title": "Turisteo",
 		"description": "Aplicación Android cuya finalidad es brindar a turistas información sobre los mejores lugares para conocer en la ciudad elegida para visitar, incluyendo un listado de lugares filtrados por categoría (históricos, playas/termas, restaurantes/bares y otros), información sobre los lugares, fotos, datos de contacto, ubicación en el mapa, conexión con Google Maps e información del clima.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1669937729/Portfolio%20-%20Alejandro%20Calgaro/turisteo-app_bpeysl.webp",
@@ -67,7 +57,7 @@
 		"category": "movil"
 	},
 	{
-		"id_project": 8,
+		"id_project": 7,
 		"title": "Tus links",
 		"description": "Aplicación web realizada como práctica, la misma permite ingresar un titulo, descripción, categoría y link para guardarlos en una base de datos y poder acceder a ellos.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/tus-links_sximqx.webp",
@@ -76,7 +66,7 @@
 		"category": "web"
 	},
 	{
-		"id_project": 9,
+		"id_project": 8,
 		"title": "ClimApp",
 		"description": "Aplicación del clima creada en React Native para el proyecto grupal del curso de especialización en desarrollo mobile realizado en conjunto por IBM y Codo a Codo.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/app-clima_wqhxfp.webp",
@@ -85,12 +75,23 @@
 		"category": "movil"
 	},
 	{
-		"id_project": 10,
+		"id_project": 9,
 		"title": "VSM",
 		"description": "Software destinado a la gestión de viviendas sociales en madera y automatización de la tarea de diseño de las mismas en AutoCAD. Contiene una interfaz gráfica desarrollada en Java y la automatización en AutoLISP.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/vsm_pms8gm.webp",
 		"topics": ["Java", "MySQL", "AutoLisp"],
 		"github": "https://github.com/alecalgaro/vsm",
 		"category": "desktop"
+	},
+
+	{
+		"id_project": 10,
+		"title": "Página web personal",
+		"description": "Porfolio personal, aquí encontrarás información sobre mí, estudios, tecnologías utilizadas, proyectos realizados y cv.",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1666051944/Portfolio%20-%20Alejandro%20Calgaro/portfolio_ikf9jo.webp",
+		"topics": ["React", "CSS modules"],
+		"web": "https://alejandrocalgaro.com.ar",
+		"github": "https://github.com/alecalgaro/Alejandro-Calgaro",
+		"category": "web"
 	}
 ]

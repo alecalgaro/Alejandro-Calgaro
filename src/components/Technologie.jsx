@@ -1,45 +1,21 @@
 import React from "react";
-import styled from "styled-components";
-import { motion } from "framer-motion";
+import useIntersection from "../hooks/useIntersection";
+import styles from "../styles/Technologie.module.css";
 
 const Technologie = ({ icon, alt, name }) => {
+	const [elementRef2, isIntersecting] = useIntersection({
+		threshold: 0.1,
+	});
+
 	return (
-		<Container
-			initial={{ opacity: 0 }}
-			whileInView={{ opacity: 1 }}
-			viewport={{ once: true, margin: "-10%" }}
+		<div
+			className={`${styles.technologie} ${isIntersecting ? styles.visible : ""}`}
+			ref={elementRef2}
 		>
 			<img src={icon} alt={alt} />
 			<p>{name}</p>
-		</Container>
+		</div>
 	);
 };
 
 export default Technologie;
-
-const Container = styled(motion.div)`
-	width: 8rem;
-	display: inline-block;
-	margin: 2rem 3rem;
-
-	img {
-		width: 6rem;
-		transition: all 0.3s;
-	}
-
-	p {
-		font-size: 1.2rem;
-	}
-
-	@media (hover: hover) {
-		&:hover {
-			img {
-				transform: scale(0.9);
-			}
-		}
-	}
-
-	@media (min-width: 992px) {
-		margin: 2rem 4rem;
-	}
-`;

@@ -1,0 +1,39 @@
+.technologie {
+	width: 8rem;
+	display: inline-block;
+	margin: 2rem 3rem;
+}
+
+img {
+	width: 6rem;
+	transition: all 0.3s;
+}
+
+p {
+	font-size: 1.2rem;
+}
+
+@media (hover: hover) {
+	.technologie:hover img {
+		transform: scale(0.9);
+	}
+}
+
+@media (min-width: 992px) {
+	.technologie {
+		margin: 2rem 4rem;
+	}
+}
+
+.visible {
+	animation: visible 2s;
+}
+
+@keyframes visible {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
