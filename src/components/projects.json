@@ -49,6 +49,16 @@
 	},
 	{
 		"id_project": 6,
+		"title": "TodoList",
+		"description": "App to-do list realizada como práctica de Tailwind y testing con Playwright.",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1680827413/Portfolio%20-%20Alejandro%20Calgaro/todo-list_yxrmax.webp",
+		"topics": ["Javascript", "Tailwind", "Playwrigth"],
+		"web": "https://todo-list-alecalgaro.netlify.app/",
+		"github": "https://github.com/alecalgaro/todo-list",
+		"category": "web"
+	},
+	{
+		"id_project": 7,
 		"title": "Turisteo",
 		"description": "Aplicación Android cuya finalidad es brindar a turistas información sobre los mejores lugares para conocer en la ciudad elegida para visitar, incluyendo un listado de lugares filtrados por categoría (históricos, playas/termas, restaurantes/bares y otros), información sobre los lugares, fotos, datos de contacto, ubicación en el mapa, conexión con Google Maps e información del clima.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1669937729/Portfolio%20-%20Alejandro%20Calgaro/turisteo-app_bpeysl.webp",
@@ -57,7 +67,7 @@
 		"category": "movil"
 	},
 	{
-		"id_project": 7,
+		"id_project": 8,
 		"title": "Tus links",
 		"description": "Aplicación web realizada como práctica, la misma permite ingresar un titulo, descripción, categoría y link para guardarlos en una base de datos y poder acceder a ellos.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/tus-links_sximqx.webp",
@@ -66,7 +76,7 @@
 		"category": "web"
 	},
 	{
-		"id_project": 8,
+		"id_project": 9,
 		"title": "ClimApp",
 		"description": "Aplicación del clima creada en React Native para el proyecto grupal del curso de especialización en desarrollo mobile realizado en conjunto por IBM y Codo a Codo.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/app-clima_wqhxfp.webp",
@@ -75,7 +85,7 @@
 		"category": "movil"
 	},
 	{
-		"id_project": 9,
+		"id_project": 10,
 		"title": "VSM",
 		"description": "Software destinado a la gestión de viviendas sociales en madera y automatización de la tarea de diseño de las mismas en AutoCAD. Contiene una interfaz gráfica desarrollada en Java y la automatización en AutoLISP.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650678448/Portfolio%20-%20Alejandro%20Calgaro/vsm_pms8gm.webp",
@@ -85,7 +95,7 @@
 	},
 
 	{
-		"id_project": 10,
+		"id_project": 11,
 		"title": "Página web personal",
 		"description": "Porfolio personal, aquí encontrarás información sobre mí, estudios, tecnologías utilizadas, proyectos realizados y cv.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1666051944/Portfolio%20-%20Alejandro%20Calgaro/portfolio_ikf9jo.webp",
