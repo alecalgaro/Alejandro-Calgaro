@@ -19,8 +19,8 @@ function App() {
 			</header>
 			<main>
 				<About />
-				<Education />
 				<Experience />
+				<Education />
 				<Technologies />
 				<Projects />
 			</main>

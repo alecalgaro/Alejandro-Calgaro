@@ -26,8 +26,8 @@ export const Navbar = () => {
 					<a onClick={handleClickLink} href="#about">
 						Sobre mí
 					</a>
-					<a onClick={handleClickLink} href="#education">
-						Educación
+					<a onClick={handleClickLink} href="#experience">
+						Experiencia
 					</a>
 					<a onClick={handleClickLink} href="#technologies">
 						Tecnologías
