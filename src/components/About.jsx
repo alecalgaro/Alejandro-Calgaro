@@ -17,11 +17,10 @@ export const About = () => {
 						height="140"
 					/>
 					<p className={styles.paragraph}>
-						Tengo 26 años, soy de la ciudad de Chajari (Entre Ríos). Me recibí de Analista en
-						Informática Aplicada en la Universidad Nacional del Litoral de Santa Fe Capital (FICH -
-						UNL), y actualmente continúo estudiando Ingeniería en Informática en la misma
-						universidad. Además de eso, he realizado cursos online sobre distintas tecnologías
-						relacionadas al desarrollo web y desarrollo móvil.
+						Tengo 26 años y soy de la ciudad de Chajari (Entre Ríos). Me recibí de Analista en
+						Informática Aplicada (FICH - UNL), en Santa Fe Capital, y continúo estudiando Ingeniería
+						en Informática. Además de eso, me interesa desarrollarme en el área del desarrollo web y
+						móvil.
 					</p>
 				</div>
 			</div>

@@ -3,6 +3,7 @@ import styles from "./styles/global.module.css"; // estilos globales
 import { Navbar } from "./components/Navbar";
 import { Home } from "./components/Home";
 import { About } from "./components/About";
+import { Experience } from "./components/Experience";
 import { Education } from "./components/Education";
 import { Technologies } from "./components/Technologies";
 import { Projects } from "./components/Projects";
@@ -19,6 +20,7 @@ function App() {
 			<main>
 				<About />
 				<Education />
+				<Experience />
 				<Technologies />
 				<Projects />
 			</main>
