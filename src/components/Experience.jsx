@@ -10,8 +10,7 @@ export const Experience = () => {
 				<p className={styles.year}>2023 - Actualmente</p>
 				<p className={styles.title}>Ayudante Alumno</p>
 				<p className={styles.description}>
-					Ayudante Alumno en Cátedra Proyecto Final de Carrera de la Facultad de Ingeniería y
-					Ciencias Hídricas (FICH) - Universidad Nacional del Litoral (UNL)
+					Cátedra Proyecto Final de Carrera de Analista en Informática Aplicada (FICH - UNL).
 				</p>
 			</div>
 
