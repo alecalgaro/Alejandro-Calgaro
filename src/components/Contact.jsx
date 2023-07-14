@@ -5,7 +5,7 @@ export const Contact = () => {
 	return (
 		<div className={styles.container_contact}>
 			<div className={styles.container_svg}>
-				<a href="https://www.instagram.com/alecalgaro/" target="_blank">
+				<a href="https://www.instagram.com/alecalgaro/" target="_blank" aria-label="Instagram">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						className="icon icon-tabler icon-tabler-brand-instagram"
@@ -51,6 +51,7 @@ export const Contact = () => {
 				<a
 					href="https://wa.me/+5493456474803?text=Hola!%20Te%20escribo%20desde%20alejandrocalgaro.com.ar"
 					target="_blank"
+					aria-label="Whatsapp"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"

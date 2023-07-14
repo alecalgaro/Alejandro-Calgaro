@@ -33,17 +33,17 @@ export const Social_medias = () => {
 			animate="visible"
 		>
 			<motion.a variants={item} href="https://www.instagram.com/alecalgaro/" target="_blank">
-				<img src={iconInstagram} alt="icon-instagram" className={styles.icon} />
+				<img src={iconInstagram} alt="Icono de Instagram" className={styles.icon} />
 			</motion.a>
 			<motion.a
 				variants={item}
 				href="https://www.linkedin.com/in/alejandrocalgaro/"
 				target="_blank"
 			>
-				<img src={iconLinkedin} alt="icon-linkedin" className={styles.icon} />
+				<img src={iconLinkedin} alt="Icono de Linkedin" className={styles.icon} />
 			</motion.a>
 			<motion.a variants={item} href="https://github.com/alecalgaro" target="_blank">
-				<img src={iconGithub} alt="icon-github" className={styles.icon} />
+				<img src={iconGithub} alt="Icono de Github" className={styles.icon} />
 			</motion.a>
 		</motion.div>
 	);
