@@ -17,17 +17,22 @@ export const Project = ({ title, description, url_img, topics, github, web }) =>
 					<div className={styles.links}>
 						{github ? (
 							<a href={github} target="_blank">
-								<img src={iconGithub} alt="icon-github" className={styles.icon} />
+								<img src={iconGithub} alt="Repositorio en Github" className={styles.icon} />
 							</a>
 						) : null}
 						{web ? (
 							<a href={web} target="_blank">
-								<img src={iconWeb} alt="icon-web" className={styles.icon} />
+								<img src={iconWeb} alt="Acceder al proyecto" className={styles.icon} />
 							</a>
 						) : null}
 					</div>
 				</div>
-				<img src={url_img} alt="imagen proyecto" className={styles.img_project} />
+				<img
+					src={url_img}
+					alt="Imagen del proyecto"
+					className={styles.img_project}
+					loading="lazy"
+				/>
 			</div>
 		</>
 	);
