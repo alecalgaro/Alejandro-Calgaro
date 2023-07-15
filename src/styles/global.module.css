@@ -1,4 +1,28 @@
 /* Estilos globales (usados en App.jsx) */
+@font-face {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("/src/styles/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url("/src/styles/fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 800;
+	font-display: swap;
+	src: url("/src/styles/fonts/Poppins-ExtraBold.ttf");
+}
+
 :root {
 	--primary: #1177bb;
 	--secondary: #1f85c3;
