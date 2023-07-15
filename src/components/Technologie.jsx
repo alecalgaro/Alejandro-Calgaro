@@ -10,7 +10,7 @@ const Technologie = ({ icon, alt, name }) => {
 			className={`${styles.technologie} ${isIntersecting ? styles.visible : ""}`}
 			ref={elementRef2}
 		>
-			<img src={icon} alt={alt} className={styles.technologie_img} />
+			<img src={icon} alt={alt} className={styles.technologie_img} loading="lazy" />
 			<p>{name}</p>
 		</div>
 	);
