@@ -25,7 +25,7 @@
 		"description": "Página web para el videojuego 'En busca de la santidad', creado para la Infancia y Adolescencia Misionera a nivel mundial.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1659574256/Portfolio%20-%20Alejandro%20Calgaro/enbuscadelasantidad-web_bchhbn.webp",
 		"topics": ["React", "Styled-componentes", "Bootstrap"],
-		"web": "https://enbuscadelasantidad.com",
+		"web": "https://enbuscadelasantidad.netlify.app",
 		"github": "https://github.com/alecalgaro/enbuscadelasantidad-web",
 		"category": "web"
 	},
