@@ -12,7 +12,7 @@
 	{
 		"id_project": 2,
 		"title": "Helios Arquitectura",
-		"description": "Sitio web para estudio de Arquitectura, Diseño y Urbanismo. Se muestra información sobre el estudio, galería de proyectos realizados y datos de contacto.",
+		"description": "Sitio web para estudio de Arquitectura, Diseño y Urbanismo. Muestra información sobre el estudio, galería de proyectos realizados y datos de contacto.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1693070198/Portfolio%20-%20Alejandro%20Calgaro/helios_kdlrdt.webp",
 		"topics": ["React", "Styled-componentes", "Framer motion"],
 		"web": "https://heliosarquitectura.com.ar/",
@@ -22,7 +22,7 @@
 	{
 		"id_project": 3,
 		"title": "Sitio web - MaKa Logistics",
-		"description": "Sitio web para la empresa de logística en México. Se muestra información sobre la empresa, servicios y datos de contacto para proveedores.",
+		"description": "Sitio web para empresa de logística en México. Muestra información sobre la empresa, servicios y datos de contacto para proveedores.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1693066492/Portfolio%20-%20Alejandro%20Calgaro/maka-logistics_win6gg.webp",
 		"topics": ["React", "Styled-componentes"],
 		"web": "http://makalogistics.mx/",
@@ -83,5 +83,14 @@
 		"topics": ["Java", "MySQL", "AutoLisp"],
 		"github": "https://github.com/alecalgaro/vsm",
 		"category": "desktop"
+	},
+	{
+		"id_project": 10,
+		"title": "Página web personal",
+		"description": "Porfolio personal, aquí encontrarás información sobre mí, proyectos realizados, estudios, tecnologías utilizadas y cv.",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1666051944/Portfolio%20-%20Alejandro%20Calgaro/portfolio_ikf9jo.webp",
+		"topics": ["React", "CSS Modules"],
+		"github": "https://github.com/alecalgaro/Alejandro-Calgaro",
+		"category": "web"
 	}
 ]
