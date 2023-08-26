@@ -1,8 +1,9 @@
 import React from "react";
 import styles from "../styles/Social_medias.module.css";
-import iconInstagram from "../img/icons/icon-instagram.svg";
 import iconLinkedin from "../img/icons/icon-linkedin.svg";
 import iconGithub from "../img/icons/icon-github.svg";
+import iconCV from "../img/icons/icon-cv.svg";
+import pdfCV from "../img/cv.pdf";
 import { motion } from "framer-motion";
 
 const container = {
@@ -32,9 +33,6 @@ export const Social_medias = () => {
 			initial="hidden"
 			animate="visible"
 		>
-			<motion.a variants={item} href="https://www.instagram.com/alecalgaro/" target="_blank">
-				<img src={iconInstagram} alt="Icono de Instagram" className={styles.icon} />
-			</motion.a>
 			<motion.a
 				variants={item}
 				href="https://www.linkedin.com/in/alejandrocalgaro/"
@@ -44,6 +42,9 @@ export const Social_medias = () => {
 			</motion.a>
 			<motion.a variants={item} href="https://github.com/alecalgaro" target="_blank">
 				<img src={iconGithub} alt="Icono de Github" className={styles.icon} />
+			</motion.a>
+			<motion.a variants={item} href={pdfCV} download="Calgaro Alejandro - CV.pdf">
+				<img src={iconCV} alt="Icono de CV" className={styles.icon} />
 			</motion.a>
 		</motion.div>
 	);
