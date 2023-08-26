@@ -20,23 +20,20 @@ export const Navbar = () => {
 					<img src={imgLogo} alt="logo" />
 				</a>
 				<div className={`links ${clicked ? "active" : ""}`}>
-					<a onClick={handleClickLink} href="#home">
-						Inicio
-					</a>
 					<a onClick={handleClickLink} href="#about">
 						Sobre mí
-					</a>
-					<a onClick={handleClickLink} href="#experience">
-						Experiencia
-					</a>
-					<a onClick={handleClickLink} href="#technologies">
-						Tecnologías
 					</a>
 					<a onClick={handleClickLink} href="#projects">
 						Proyectos
 					</a>
+					<a onClick={handleClickLink} href="#technologies">
+						Tecnologías
+					</a>
+					<a onClick={handleClickLink} href="#experience">
+						Experiencia
+					</a>
 					<a onClick={handleClickLink} href="#cv">
-						CV
+						Contacto
 					</a>
 				</div>
 				<div className="burguer">

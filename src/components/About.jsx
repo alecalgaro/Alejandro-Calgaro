@@ -17,13 +17,11 @@ export const About = () => {
 						height="140"
 					/>
 					<p className={styles.paragraph}>
-						Tengo 26 años y nací en la ciudad de Chajarí, Entre Ríos. Me gradué como Analista en
-						Informática Aplicada (FICH - UNL - Santa Fe Capital). Actualmente, soy estudiante
-						avanzado de Ingeniería en Informática y también formo parte de la cátedra de Proyecto
-						Final de Carrera de Analista en Informática Aplicada, donde desempeño el rol de Ayudante
-						Alumno. Además, me apasiona el desarrollo web y móvil, por lo que continúo ampliando mis
-						conocimientos en desarrollo front-end a través de cursos en línea y realizando proyectos
-						personales u ofreciendo mis servicios como freelance para clientes.
+						Me recibí como Analista en Informática Aplicada (FICH - UNL). Actualmente, soy
+						estudiante avanzado de Ingeniería en Informática y formo parte de la cátedra de Proyecto
+						Final de Carrera de Analista en Informática Aplicada. Me apasiona el desarrollo web y
+						móvil, por lo que continúo ampliando mis conocimientos a través de cursos en línea y
+						realizando proyectos freelance.
 					</p>
 				</div>
 			</div>
