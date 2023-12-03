@@ -9,6 +9,7 @@ import iconJS from "../img/icons/icon-js.webp";
 import iconReact from "../img/icons/icon-react.webp";
 import iconJava from "../img/icons/icon-java.webp";
 import iconAndroid from "../img/icons/icon-android.webp";
+import iconPython from "../img/icons/icon-python.webp";
 import iconMySQL from "../img/icons/icon-mysql.webp";
 import iconFirebase from "../img/icons/icon-firebase.webp";
 import iconGit from "../img/icons/icon-git.webp";
@@ -30,6 +31,7 @@ export const Technologies = () => {
 				<Technologie icon={iconReact} alt="icon-react" name="REACT" />
 				<Technologie icon={iconJava} alt="icon-java" name="JAVA" />
 				<Technologie icon={iconAndroid} alt="icon-android" name="ANDROID" />
+				<Technologie icon={iconPython} alt="icon-python" name="PYTHON" />
 				<Technologie icon={iconMySQL} alt="icon-mysql" name="MYSQL" />
 				<Technologie icon={iconFirebase} alt="icon-firebase" name="FIREBASE" />
 				<Technologie icon={iconGit} alt="icon-git" name="GIT" />
