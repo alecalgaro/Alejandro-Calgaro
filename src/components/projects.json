@@ -5,7 +5,7 @@
 		"description": "Sitio web para talleres de magia online. Los usuarios pueden crear una cuenta y acceder al contenido de los talleres de magia.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1670954269/Portfolio%20-%20Alejandro%20Calgaro/talleres-magia_c84v4j.webp",
 		"topics": ["React", "Styled-componentes", "Firebase"],
-		"web": "https://magia.alejandrocalgaro.com.ar",
+		"web": "https://magia.alecalgaro.com.ar",
 		"github": "https://github.com/alecalgaro/talleres-magia",
 		"category": "web"
 	},
@@ -21,16 +21,15 @@
 	},
 	{
 		"id_project": 3,
-		"title": "Sitio web - MaKa Logistics",
+		"title": "Sitio web MaKa Logistics",
 		"description": "Sitio web para empresa de logística en México. Muestra información sobre la empresa, servicios y datos de contacto para proveedores.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1693066492/Portfolio%20-%20Alejandro%20Calgaro/maka-logistics_win6gg.webp",
 		"topics": ["React", "Styled-componentes"],
-		"web": "http://makalogistics.mx/",
 		"category": "web"
 	},
 	{
 		"id_project": 4,
-		"title": "Página web - En busca de la santidad",
+		"title": "Página web En busca de la santidad",
 		"description": "Página web para el videojuego 'En busca de la santidad', creado para la Infancia y Adolescencia Misionera a nivel mundial.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1693070198/Portfolio%20-%20Alejandro%20Calgaro/enbuscadelasantidad-web_zysysk.webp",
 		"topics": ["React", "Styled-componentes", "Bootstrap"],
@@ -40,7 +39,7 @@
 	},
 	{
 		"id_project": 5,
-		"title": "Videojuego - En busca de la santidad",
+		"title": "Videojuego En busca de la santidad",
 		"description": "Videojuego 'En busca de la santidad', creado para la Infancia y Adolescencia Misionera a nivel mundial. El mismo puede ser jugado de forma online o descargándolo en dispositivos móviles android y computadoras. Traducido a 5 idiomas.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1693070198/Portfolio%20-%20Alejandro%20Calgaro/enbuscadelasantidad-juego_ejmlh7.webp",
 		"web": "http://enbuscadelasantidad.itch.io/game",
