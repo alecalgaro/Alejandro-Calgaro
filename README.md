@@ -1,5 +1,5 @@
 # Alejandro Calgaro
 
-Página web personal donde se podrá encontrar infomación sobre mí, estudios, tecnologías utilizadas, proyectos realizados y cv. La misma fue realizada utilizando React.
+Página web personal donde se podrá encontrar infomación sobre mí, proyectos realizados, tecnologías utilizadas, experiencia, educación y la posibilidad de descargar mi CV.
 
-https://alejandrocalgaro.com.ar
+https://alecalgaro.com.ar
