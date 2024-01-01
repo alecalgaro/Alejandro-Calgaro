@@ -5,7 +5,10 @@
 	align-items: center;
 	padding: 3rem 0;
 	border-bottom: 1px solid var(--black);
-	animation: fadeIn 1s;
+
+	animation: fadeIn linear both;
+	animation-timeline: view();
+	animation-range: entry 10% cover 30%;
 }
 
 @keyframes fadeIn {
