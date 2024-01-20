@@ -26,12 +26,6 @@ p {
 	font-size: 1.2rem;
 }
 
-@media (hover: hover) {
-	.technologie:hover img {
-		transform: scale(0.9);
-	}
-}
-
 @media (min-width: 992px) {
 	.technologie {
 		margin: 2rem 4rem;

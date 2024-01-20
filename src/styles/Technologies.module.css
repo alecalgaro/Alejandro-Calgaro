@@ -23,3 +23,10 @@
 	max-width: 70rem;
 	text-align: center;
 }
+
+@media (hover: hover) {
+	.content:hover img:not(:hover) {
+		filter: grayscale(0.5);
+		opacity: 0.6;
+	}
+}

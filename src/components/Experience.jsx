@@ -8,7 +8,7 @@ export const Experience = () => {
 			<SectionTitle title="Experiencia" />
 			<div className={styles.content}>
 				<p className={styles.year}>2023 - Actualmente</p>
-				<p className={styles.title}>Ayudante Alumno</p>
+				<p className={styles.title}>Docencia - Ayudante Alumno</p>
 				<p className={styles.description}>
 					Cátedra Proyecto Final de Carrera de Analista en Informática Aplicada (FICH - UNL).
 				</p>
