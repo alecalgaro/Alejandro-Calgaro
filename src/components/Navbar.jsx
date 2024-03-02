@@ -86,7 +86,7 @@ const NavContainer = styled.nav`
 			letter-spacing: 2px;
 			margin: 1.2rem;
 			text-decoration: none;
-			transition: all 0.3s;
+			transition: color 0.3s;
 
 			&:hover {
 				color: var(--black);
@@ -99,7 +99,7 @@ const NavContainer = styled.nav`
 			padding: 1rem;
 
 			a {
-				font-size: 1.3rem;
+				font-size: 1.6rem;
 				letter-spacing: 1px;
 				color: var(--black);
 				display: inline;

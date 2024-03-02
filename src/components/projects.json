@@ -68,7 +68,7 @@
 	{
 		"id_project": 8,
 		"title": "Turisteo",
-		"description": "Aplicación Android cuya finalidad es brindar a turistas información sobre los mejores lugares para conocer en la ciudad elegida para visitar, incluyendo un listado de lugares filtrados por categoría (históricos, playas/termas, restaurantes/bares y otros), información sobre los lugares, fotos, datos de contacto, ubicación en el mapa, conexión con Google Maps e información del clima.",
+		"description": "Aplicación Android cuya finalidad es brindar a turistas información sobre los mejores lugares para conocer en la ciudad elegida para visitar, incluyendo un listado de lugares filtrados por categoría, información sobre cada lugar, fotos, datos de contacto, ubicación en el mapa, conexión con Google Maps e información del clima.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1669937729/Portfolio%20-%20Alejandro%20Calgaro/turisteo-app_bpeysl.webp",
 		"topics": ["Java", "Firebase", "Android Studio"],
 		"github": "https://github.com/alecalgaro/Turisteo",

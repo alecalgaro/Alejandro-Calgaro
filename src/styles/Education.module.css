@@ -16,7 +16,7 @@
 }
 
 .year {
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	color: var(--secondary);
 	font-weight: 700;
 	margin-top: 1rem;
@@ -29,6 +29,6 @@
 }
 
 .description {
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	margin-bottom: 2rem;
 }
