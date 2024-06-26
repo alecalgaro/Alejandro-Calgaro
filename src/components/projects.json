@@ -15,7 +15,7 @@
 		"description": "Sitio web para estudio de Arquitectura, Diseño y Urbanismo. Muestra información sobre el estudio, galería de proyectos realizados y datos de contacto.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1693070198/Portfolio%20-%20Alejandro%20Calgaro/helios_kdlrdt.webp",
 		"topics": ["React", "Styled-componentes", "Framer motion"],
-		"web": "https://heliosarquitectura.com.ar/",
+		"web": "https://heliosarquitectura.netlify.app",
 		"github": "https://github.com/alecalgaro/helios-arquitectura",
 		"category": "web"
 	},
