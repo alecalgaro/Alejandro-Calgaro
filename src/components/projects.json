@@ -21,6 +21,24 @@
 	},
 	{
 		"id_project": 3,
+		"title": "Tuanis",
+		"description": "Sitio web con videojuegos educativos con diversas temáticas.",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1719623937/Portfolio%20-%20Alejandro%20Calgaro/tuanis_fwen6i.webp",
+		"topics": ["React", "CSS Modules"],
+		"web": "https://tuanis.alecalgaro.com.ar",
+		"category": "web"
+	},
+	{
+		"id_project": 4,
+		"title": "ReadMedi",
+		"description": "Aplicación para el reconocimiento de medicamentos, para personas ciegas y disminuidas visuales, utilizando técnicas de procesamiento digital de imágenes.",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1719623937/Portfolio%20-%20Alejandro%20Calgaro/read-medi_modpz9.webp",
+		"topics": ["Android", "Java", "OpenCV", "OCR"],
+		"web": "https://drive.google.com/file/d/1N30GUeg_a2iQOZw8-h0gyKdF72p9trnO/view?usp=drive_link",
+		"category": "movil"
+	},
+	{
+		"id_project": 5,
 		"title": "Sitio web MaKa Logistics",
 		"description": "Sitio web para empresa de logística en México. Muestra información sobre la empresa, servicios y datos de contacto para proveedores.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1693066492/Portfolio%20-%20Alejandro%20Calgaro/maka-logistics_win6gg.webp",
@@ -28,7 +46,7 @@
 		"category": "web"
 	},
 	{
-		"id_project": 4,
+		"id_project": 6,
 		"title": "Página web En busca de la santidad",
 		"description": "Página web para el videojuego 'En busca de la santidad', creado para la Infancia y Adolescencia Misionera a nivel mundial.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1693070198/Portfolio%20-%20Alejandro%20Calgaro/enbuscadelasantidad-web_zysysk.webp",
@@ -38,32 +56,12 @@
 		"category": "web"
 	},
 	{
-		"id_project": 5,
+		"id_project": 7,
 		"title": "Videojuego En busca de la santidad",
 		"description": "Videojuego 'En busca de la santidad', creado para la Infancia y Adolescencia Misionera a nivel mundial. El mismo puede ser jugado de forma online o descargándolo en dispositivos móviles android y computadoras. Traducido a 5 idiomas.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1693070198/Portfolio%20-%20Alejandro%20Calgaro/enbuscadelasantidad-juego_ejmlh7.webp",
 		"web": "http://enbuscadelasantidad.itch.io/game",
 		"category": "games"
-	},
-	{
-		"id_project": 6,
-		"title": "Memojis",
-		"description": "Juego de la memoria o memotest utilizando los emojis elegidos por el usuario.",
-		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1676683913/Portfolio%20-%20Alejandro%20Calgaro/memojis_ctm3c3.webp",
-		"topics": ["React", "CSS"],
-		"web": "https://memojis.netlify.app/",
-		"github": "https://github.com/alecalgaro/memojis",
-		"category": "games"
-	},
-	{
-		"id_project": 7,
-		"title": "TodoList",
-		"description": "App to-do list realizada como práctica de Tailwind y testing con Playwright.",
-		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1680827413/Portfolio%20-%20Alejandro%20Calgaro/todo-list_yxrmax.webp",
-		"topics": ["Javascript", "Tailwind", "Playwrigth"],
-		"web": "https://todo-list-alecalgaro.netlify.app/",
-		"github": "https://github.com/alecalgaro/todo-list",
-		"category": "web"
 	},
 	{
 		"id_project": 8,
@@ -85,6 +83,26 @@
 	},
 	{
 		"id_project": 10,
+		"title": "Memojis",
+		"description": "Juego de la memoria o memotest utilizando los emojis elegidos por el usuario.",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1676683913/Portfolio%20-%20Alejandro%20Calgaro/memojis_ctm3c3.webp",
+		"topics": ["React", "CSS"],
+		"web": "https://memojis.netlify.app/",
+		"github": "https://github.com/alecalgaro/memojis",
+		"category": "games"
+	},
+	{
+		"id_project": 11,
+		"title": "TodoList",
+		"description": "App to-do list realizada como práctica de Tailwind y testing con Playwright.",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1680827413/Portfolio%20-%20Alejandro%20Calgaro/todo-list_yxrmax.webp",
+		"topics": ["Javascript", "Tailwind", "Playwrigth"],
+		"web": "https://todo-list-alecalgaro.netlify.app/",
+		"github": "https://github.com/alecalgaro/todo-list",
+		"category": "web"
+	},
+	{
+		"id_project": 12,
 		"title": "Página web personal",
 		"description": "Porfolio personal, aquí encontrarás información sobre mí, proyectos realizados, estudios, tecnologías utilizadas y cv.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1666051944/Portfolio%20-%20Alejandro%20Calgaro/portfolio_ikf9jo.webp",
