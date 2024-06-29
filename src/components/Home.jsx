@@ -7,7 +7,7 @@ export const Home = () => {
 	return (
 		<section className={styles.container_home} id="home">
 			<h1 className={styles.title}>Alejandro Calgaro</h1>
-			<p className={styles.description}>Desarrollador frontend</p>
+			<p className={styles.description}>Desarrollador Web y Móvil</p>
 			<img
 				src={imgLogo}
 				alt="foto de perfil"
