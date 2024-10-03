@@ -17,11 +17,11 @@ export const About = () => {
 						height="140"
 					/>
 					<p className={styles.paragraph}>
-						Me recibí como Analista en Informática Aplicada (FICH - UNL). Actualmente, soy
-						estudiante avanzado de Ingeniería en Informática y formo parte de la cátedra de Proyecto
-						Final de Carrera de Analista en Informática Aplicada. Me apasiona el desarrollo web y
-						móvil, por lo que continúo ampliando mis conocimientos a través de cursos en línea y
-						realizando proyectos freelance.
+						Soy Analista en Informática Aplicada y estudiante avanzado de Ingeniería en Informática
+						en la Facultad de Ingeniería y Ciencias Hídricas, Universidad Nacional del Litoral
+						(Santa Fe). Actualmente, soy docente en la carrera de Analista en Informática Aplicada y
+						en la Tecnicatura Universitaria en Informática Aplicada al Diseño Multimedia y de Sitios
+						Web. Además, realizo proyectos web de manera freelance.
 					</p>
 				</div>
 			</div>

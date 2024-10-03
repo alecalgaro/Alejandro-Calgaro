@@ -10,6 +10,7 @@ import iconReact from "../img/icons/icon-react.webp";
 import iconJava from "../img/icons/icon-java.webp";
 import iconAndroid from "../img/icons/icon-android.webp";
 import iconPython from "../img/icons/icon-python.webp";
+import iconOdoo from "../img/icons/icon-odoo.webp";
 import iconOpenCV from "../img/icons/icon-opencv.webp";
 import iconMySQL from "../img/icons/icon-mysql.webp";
 import iconFirebase from "../img/icons/icon-firebase.webp";
@@ -34,6 +35,7 @@ export const Technologies = () => {
 				<Technologie icon={iconJava} alt="icon-java" name="JAVA" />
 				<Technologie icon={iconAndroid} alt="icon-android" name="ANDROID" />
 				<Technologie icon={iconPython} alt="icon-python" name="PYTHON" />
+				<Technologie icon={iconOdoo} alt="icon-odoo" name="ODOO" />
 				<Technologie icon={iconOpenCV} alt="icon-opencv" name="OPENCV" />
 				<Technologie icon={iconMySQL} alt="icon-mysql" name="MYSQL" />
 				<Technologie icon={iconFirebase} alt="icon-firebase" name="FIREBASE" />

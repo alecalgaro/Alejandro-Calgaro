@@ -31,10 +31,10 @@
 	{
 		"id_project": 4,
 		"title": "ReadMedi",
-		"description": "Aplicación para el reconocimiento de medicamentos, para personas ciegas y disminuidas visuales, utilizando técnicas de procesamiento digital de imágenes.",
+		"description": "Aplicación móvil para el reconocimiento de medicamentos y asistencia a personas con discapacidad visual.",
 		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1719623937/Portfolio%20-%20Alejandro%20Calgaro/read-medi_modpz9.webp",
 		"topics": ["Android", "Java", "OpenCV", "OCR"],
-		"web": "https://drive.google.com/file/d/1N30GUeg_a2iQOZw8-h0gyKdF72p9trnO/view?usp=drive_link",
+		"web": "https://drive.google.com/drive/folders/1nIiqnkqEx6VDzcxG8Den4v0mzdzH-qIJ?usp=drive_link",
 		"category": "movil"
 	},
 	{
